@@ -1,0 +1,155 @@
+@charset "UTF-9";
+
+body{
+    background-color: b;
+}
+.slider{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+.slides{
+    width: 400%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    position: relative;
+    width: 25%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 100%; 
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 110%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.manual-btn{
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+    
+}
+
+.manual-btn:hover{
+    background-color: rgba(11, 79, 110, 0.623);
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+    
+}
+
+.navigation-auto div{
+    border: 2px solid rgb(210, 223, 26);
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 110%;
+    margin-top: 210px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color:  whitesmoke;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color:  whitesmoke;
+}
+
+
+
+
+@media screen and (min-width: 300px) and (max-width:768px){
+    
+    .slider{
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        
+    }
+    
+    .slides{
+        width: 400%;
+        height: 250px;
+        display: flex;
+    }
+    
+    
+}
+
+@media screen and (min-width: 760px) and (max-width:2000px){
+    
+    .manual-navigation{
+        position: absolute;
+        width: 110%;
+        margin-top: -80px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .manual-btn{
+        padding: 8px;
+        border-radius: 10px;
+        
+    }
+
+    
+.navigation-auto div{
+    border: 2px solid rgb(210, 223, 26);
+    padding: 8px;
+    border-radius: 10px;
+    
+}
+
+.navigation-auto {
+    
+    width: 110%;
+    margin-top: 420px;
+    
+}
+}
+
+
+
+
+
