@@ -5,9 +5,8 @@ body{
 }
 .slider{
     width: 100%;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
-    
 }
 
 .slides{
@@ -32,15 +31,15 @@ body{
 
 .manual-navigation{
     position: absolute;
-    width: 100%;
-    margin-top: -40px;
+    width: 102%;
+    margin-top: -10px;
     display: flex;
     justify-content: center;
 }
 
 
 .manual-btn{
-    border: 2px solid black;
+    border: 2px solid rgb(210, 223, 26);
     padding: 8px;
     border-radius: 10px;
     cursor: pointer;
@@ -67,7 +66,7 @@ body{
 }
 
 .navigation-auto div{
-    border: 2px solid rgb(210, 223, 26);
+    border: 2px solid black;
     padding: 8px;
     border-radius: 10px;
     cursor: pointer;
@@ -76,8 +75,8 @@ body{
 
 .navigation-auto {
     position: absolute;
-    width: 100%;
-    margin-top: 210px;
+    width: 102%;
+    margin-top: 240px;
     display: flex;
     justify-content: center;
 }
@@ -102,7 +101,7 @@ body{
     
     .slider{
         width: 100%;
-        height: 250px;
+        height: 280px;
         overflow: hidden;
         
     }
@@ -121,9 +120,10 @@ body{
     .manual-navigation{
         position: absolute;
         width: 100%;
-        margin-top: -80px;
+        margin-top: 50px;
         display: flex;
         justify-content: center;
+        
     }
     
     
@@ -143,7 +143,7 @@ body{
 
 .navigation-auto {
     width: 100%;
-    margin-top: 420px;
+    margin-top: 550px;
     
 }
 

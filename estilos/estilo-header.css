@@ -4,6 +4,14 @@ header {
     overflow-x: hidden;
 }
 
+header nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+
 .nav-bar {
     width: 100%;
     display: flex;
@@ -12,17 +20,18 @@ header {
     list-style: none;
     position: relative;
     background-color: var(--cor2);
-    padding: 15px 20px;
+    padding: 2px 20px;
 }
 
 .logo img{  width: 20px;
             float: left;
             width: 20%;
             padding-left: 5px;
+            padding-top: 8px;
            
 }
 
-.logo p{    padding-top: 4px;
+.logo p{    padding-top: 8px;
             padding-left: 15px;
             display: flex;
             color: var(--cor1);
@@ -95,6 +104,6 @@ header {
     .menu li{margin-top: 40px;}
     .menu li a {padding: 1px;  width: calc(50% -20px); transform: translateX(-10px);}
     .open-menu , .close-menu{display: block;}
-    .close-menu{ margin-top: -114px;}
+    .close-menu{ margin-top: -90px;}
     #icheck:checked ~ .menu{right: 0;}
 }
