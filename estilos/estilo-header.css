@@ -1,16 +1,7 @@
 @charset "UTF-8";
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-}
-
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    --cor1: white; 
-    --cor2: rgb(8, 42, 51);
+header {
+    overflow-x: hidden;
 }
 
 .nav-bar {
@@ -34,7 +25,7 @@ body{
 .logo p{    padding-top: 4px;
             padding-left: 15px;
             display: flex;
-            color: rgb(218, 218, 218);
+            color: var(--cor1);
             font-size: 0.9em;
             
 }
@@ -51,6 +42,7 @@ body{
     text-transform: uppercase;
     font-size: 0.8em;
     width: calc(100% -50px); transform: translateX(-20px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .menu li a::after{

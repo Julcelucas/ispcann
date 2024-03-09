@@ -32,7 +32,7 @@ body{
 
 .manual-navigation{
     position: absolute;
-    width: 110%;
+    width: 100%;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@ body{
 
 
 .manual-btn:not(:last-child){
-    margin-right: 40px;
+    margin-right: 80px;
     
 }
 
@@ -76,7 +76,7 @@ body{
 
 .navigation-auto {
     position: absolute;
-    width: 110%;
+    width: 100%;
     margin-top: 210px;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@ body{
 
 
 .navigation-auto div:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
@@ -120,7 +120,7 @@ body{
     
     .manual-navigation{
         position: absolute;
-        width: 110%;
+        width: 100%;
         margin-top: -80px;
         display: flex;
         justify-content: center;
@@ -142,10 +142,17 @@ body{
 }
 
 .navigation-auto {
-    
-    width: 110%;
+    width: 100%;
     margin-top: 420px;
     
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 110px;
+    
+}
+.navigation-auto div:not(:last-child) {
+    margin-right: 110px;
 }
 }
 
