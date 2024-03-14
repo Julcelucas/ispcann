@@ -1,16 +1,18 @@
 @charset "UTF-8";
 
-header {
-    overflow-x: hidden;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
 
-header nav{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    --cor1: white; 
+    --cor2: rgb(8, 42, 51);
 }
+
 
 .nav-bar {
     width: 100%;
@@ -20,27 +22,27 @@ header nav{
     list-style: none;
     position: relative;
     background-color: var(--cor2);
-    padding: 2px 20px;
+    padding: 15px 20px;
 }
 
 .logo img{  width: 20px;
             float: left;
             width: 20%;
             padding-left: 5px;
-            padding-top: 8px;
            
 }
 
-.logo p{    padding-top: 8px;
-            padding-left: 15px;
+.logo p{    padding-top: 4px;
+            padding-left: 10px;
             display: flex;
-            color: var(--cor1);
-            font-size: 0.9em;
+            color: rgb(218, 218, 218);
+            font-size: 0.8em;
+            font-weight: lighter;
             
 }
 
 .menu{display: flex;}
-.menu li{padding-left: 30px;}
+.menu li{padding-left: 20px; margin-right: 20px;}
 .menu li a {
     display: inline-block;
     text-decoration: none;
@@ -49,9 +51,9 @@ header nav{
     transition: 0.15s ease-in-out;
     position: relative;
     text-transform: uppercase;
-    font-size: 0.8em;
-    width: calc(100% -50px); transform: translateX(-20px);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    
 }
 
 .menu li a::after{
@@ -86,8 +88,59 @@ header nav{
 
 #icheck { display: none;}
 
-@media screen and (max-width: 1024px) {
+@media screen  and (min-width:320px)and (max-width: 1050px) {
+    
+    
     .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--cor2);
+        transition: all 0.2s ease-in-out;
+        overflow-y: auto;
+    }
+
+    .menu li{margin-top: 40px;}
+    .menu li a {padding: 1px;   text-align: center; margin: auto;}
+    .open-menu , .close-menu{display: block;}
+    .close-menu{ margin-top: -110px;}
+    #icheck:checked ~ .menu{right: 0;}
+}
+
+@media screen and (min-width:520px) and (max-width:1050px){
+    .menu{
+        width: 32%; 
+    }
+
+}
+
+@media screen and (min-width: 1050px){
+   
+.menu{display: flex;}
+.menu li{padding-left: 20px; margin-right: 20px;}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--cor1);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    
+} 
+}
+
+
+
+/*.menu{
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -102,8 +155,8 @@ header nav{
     }
 
     .menu li{margin-top: 40px;}
-    .menu li a {padding: 1px;  width: calc(50% -20px); transform: translateX(-10px);}
+    .menu li a {padding: 10px;}
     .open-menu , .close-menu{display: block;}
-    .close-menu{ margin-top: -90px;}
+    .close-menu{ margin-top: -92px;}
     #icheck:checked ~ .menu{right: 0;}
 }
