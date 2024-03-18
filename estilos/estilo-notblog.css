@@ -156,7 +156,7 @@ margin-top: -50px;
 
 @media screen and (min-width: 320px) and (max-width: 992px) {
     #caixa{
-        width: 100vw;
+        width: 90vw;
         height: 70vh; 
         margin: 0;
        
