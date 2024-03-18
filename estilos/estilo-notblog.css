@@ -46,6 +46,7 @@ ol{
   display: flex;
   padding: 1rem;
   overflow: hidden;
+  overflow-x: auto;
 }
 
 .scroll{
