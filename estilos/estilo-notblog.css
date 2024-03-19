@@ -79,24 +79,30 @@ justify-content: center;
 align-items: center;
 font-size: 0.7em;
 font-weight: lighter;
-margin-top: -50px;
+margin-top: -70px;
 
+}
+
+.sec4 > h1{
+    padding-top: 30px;
 }
 
 #span1{
    margin-left: 0%;
-   font-size: 2.9em; 
+   background-color: var(--cor5); 
+   
 }
 #span2{
     margin-left: 10%;
-    font-size: 2.9em;
+    background-color: var(--cor5); 
+    
 }
 
 #span1:hover{
-    color: #EFE51B;
+    background-color: #EFE51B;
 }
 #span2:hover{
-    color:#EFE51B;
+    background-color:#EFE51B;
 }
 
 
@@ -157,7 +163,7 @@ margin-top: -50px;
 @media screen and (min-width: 320px) and (max-width: 992px) {
     #caixa{
         width: 90vw;
-        height: 70vh; 
+        height: 78vh; 
         margin: 0;
        
     }
@@ -183,17 +189,21 @@ margin-top: -50px;
     }
 
     div.span{
-     margin-top: -50px;
+     margin-top: -60px;
      margin-bottom: 30px;
      }
 
     #span1{
-        font-size: 2.5em; 
+        width: 20px; 
      }
      #span2{
-         font-size: 2.5em;
-     }
+        width: 20px;
         
+     }
+      
+     .sec4 > h1{
+        padding-top: 10px;
+    }
 
 }
 

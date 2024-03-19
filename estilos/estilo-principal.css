@@ -16,7 +16,9 @@
     --cor7: #EFE51B;                 ;
 
 }
-
+html{
+    overflow-x: auto;
+}
 body, html{
     width: 100%;
     height: 100%;
@@ -24,7 +26,8 @@ body, html{
 }
 
 main >section{
-    padding-left: 10px;
+    padding:20px 10px 20px 10px;
+    
 
 }
 
@@ -32,9 +35,6 @@ main section > h1,p,a,ol{
     padding-left: 30px;
 }
 
-h1{
-    
-}
  main section{
     
 }
@@ -46,6 +46,27 @@ main > .sec4{
 main >.sec1,.sec3{
     background-color: var(--cor5);
 }
+
+.sec1 > h1{
+    color: yellow;
+}
+.sec1 p{
+    color: var(--cor1);
+}
+
+.sec3 > h1{
+    color: yellow;
+}
+.sec3 p{
+    color: var(--cor1);
+}
+
+
+.sec1 p, .sec2 p, .sec4 p{
+    padding-top: 30px;
+}
+
+
 
 
 
