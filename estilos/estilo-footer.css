@@ -5,18 +5,19 @@
     padding: 0;
 }
 
-footer{
+.footer1{
     display: block;
     background-color: rgb(8, 42, 51);
     padding:20px 10px 20px 10px;
 }
 
-footer h1{
+.footer1 h1{
     color: rgb(236, 232, 232);
     font-size: 1.8em;
     font-weight: lighter;
     padding-bottom: 20px;
     padding-left: 30px;
+    text-align: center;
 } 
 
 .redes-sociais{
@@ -40,6 +41,15 @@ footer h1{
 }
 
 
+footer{
+    background-color: rgb(26, 25, 25);
+    box-shadow: 5px 5px 10px black;
+    padding: 20px;
+}
+
+footer p,a{
+    color: rgba(255, 255, 255, 0.719);
+}
 
 
 

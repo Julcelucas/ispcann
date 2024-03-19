@@ -23,6 +23,7 @@ body{
     position: relative;
     background-color: var(--cor2);
     padding: 15px 20px;
+    box-shadow: 2px 2px 5px var(--cor6);
 }
 
 .logo img{  width: 20px;
