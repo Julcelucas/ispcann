@@ -27,7 +27,7 @@ body, html{
 
 main >section{
     padding:20px 10px 20px 10px;
-    
+    box-shadow: 2px 2px 5px white;
 
 }
 
@@ -45,6 +45,7 @@ main > .sec4{
 
 main >.sec1,.sec3{
     background-color: var(--cor5);
+    box-shadow: 2px 2px 5px var(--cor6);
 }
 
 .sec1 > h1{
