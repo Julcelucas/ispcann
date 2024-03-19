@@ -72,7 +72,9 @@ main >.sec1,.sec3{
     color: var(--cor1);
 }
 
-
+.sec2 a{
+    color: #EFE51B;
+}
 .sec1 p, .sec2 p, .sec4 p{
     padding-top: 30px;
 }
