@@ -16,9 +16,7 @@
     --cor7: #EFE51B;                 ;
 
 }
-html{
-   overflow-x: hidden;
-}
+
 body, html{
     width: 100%;
     height: 100%;
