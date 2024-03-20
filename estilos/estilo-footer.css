@@ -21,7 +21,8 @@
 } 
 
 .redes-sociais{
-    text-align: center;
+    padding-left: 40px;
+
 }
 
 .redes-sociais img{
@@ -78,6 +79,10 @@ footer p,a{
 .nam {
     text-align: center;
     margin-left: -50px;
+}
+
+footer .extra{
+    padding-bottom: 20px;
 }
 
 
