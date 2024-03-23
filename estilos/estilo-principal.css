@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,12 +16,12 @@
 }
 :root{
     --cor1:#FCFCFA;                --fonte-padrão: Arial, Helvetica, sans-serif;
-    --cor2: rgb(8, 42, 51);        --fonte1: ; 
-    --cor3: #F3F3BA;               --fonte2: ;
-    --cor4: #C1DCE9;               --fonte3: ;
+    --cor2: rgb(8, 42, 51);        --fonte1: 'DM Sans', sans-serif; 
+    --cor3: #F3F3BA;               --fonte2: 'Source Serif 4', serif;
+    --cor4: #C1DCE9;               --fonte3: 'Inter', sans-serif;
     --cor5: #0B75B1;
     --cor6: #3F636D;
-    --cor7: #EFE51B;                 ;
+    --cor7: #EFE51B;                 
 
 }
 html{
@@ -79,6 +87,18 @@ main >.sec1,.sec3{
 .sec1 p, .sec2 p, .sec4 p{
     padding-top: 30px;
 }
+
+
+
+ p{
+    font-family: 'Inter', sans-serif;
+
+}
+
+h1{
+    font-family: 'Source Serif 4', serif;
+}
+
 
 
 
