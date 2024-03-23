@@ -36,6 +36,16 @@ body, html{
 a{
     text-decoration: none;
     cursor: pointer;
+    text-decoration: underline;
+}
+
+main section ol{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+section ol li{
+    padding: 15px;
 }
 
 main >section{
@@ -48,9 +58,6 @@ main section > h1,p,a,ol{
     padding-left: 30px;
 }
 
-h1{
-    text-align: center;
-}
 
  main section{
     
@@ -61,44 +68,77 @@ main > .sec4{
 }
 
 main >.sec1,.sec3{
-    background-color: var(--cor5);
+    background-image: linear-gradient(to right,rgb(22, 72, 85), rgb(8, 140, 173));
     box-shadow: 2px 2px 2px var(--cor6);
     border: none;
 }
 
-.sec1 > h1{
-    color: yellow;
+.sec2, .sec4{
+    background-color: #FDFDFE;
 }
+
+.sec1 > h1{
+    font-weight: 560;   
+}
+
+.sec3 > h1{
+    font-weight: 640;
+    padding-bottom: 30px;
+}
+
 .sec1 p{
     color: var(--cor1);
 }
 
-.sec3 > h1{
-    color: yellow;
-    padding-bottom: 30px;
-}
+
 .sec3 p{
     color: var(--cor1);
 }
 
 .sec2 a{
-    color: #EFE51B;
+    background-color: rgb(209, 209, 9);
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+    padding: 10px;
 }
+.sec2 a:hover{
+    text-decoration: underline;
+    background-color: rgb(172, 172, 5)
+}
+
 .sec1 p, .sec2 p, .sec4 p{
     padding-top: 30px;
+    line-height: 1.5em;
+    font-size: 0.9em;
+  
 }
 
-
-
- p{
-    font-family: 'Inter', sans-serif;
-
-}
 
 h1{
     font-family: 'Source Serif 4', serif;
+    text-align: center;
+  
 }
 
+
+main section p{
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+
+
+.sec2 .imagem{
+    text-align: center;
+    padding: 20px;
+}
+.sec2 .imagem img{
+    width: 70%;
+    height: 70%;
+}
 
 
 
