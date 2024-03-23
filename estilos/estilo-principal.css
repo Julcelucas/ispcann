@@ -67,6 +67,7 @@ main >.sec1,.sec3{
 
 .sec3 > h1{
     color: yellow;
+    padding-bottom: 30px;
 }
 .sec3 p{
     color: var(--cor1);
