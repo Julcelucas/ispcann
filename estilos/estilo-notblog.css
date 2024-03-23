@@ -118,20 +118,21 @@ margin-top: -70px;
     display: flex;
     flex-direction: column;
     height: 100%;
-    text-align: center;
+
     
 }
 
 .texto span{
     font-size: 0.8rem;
     color: var(--cor3);
+    text-align: center;
 }
 
 .texto .titlo{
     font-size: 1.1rem;
     font-weight: 500;
      color: var(--cor7);
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 
@@ -152,6 +153,7 @@ margin-top: -70px;
     color: var(--cor4);
     font-size: 0.9rem;
     font-weight: lighter;
+    text-align: center;
 }
 
 .texto a:hover{
@@ -171,7 +173,7 @@ margin-top: -70px;
       #caixa div.blog{
         min-width: calc(260px - 60px);
         transform: translateX(-10px);
-        height: 390px;
+        height: 395px;
          
     }
 
@@ -186,6 +188,7 @@ margin-top: -70px;
         font-size: 0.95rem;
         font-weight: 300;
         padding-top: 3px;
+        
     }
 
     div.span{
@@ -211,9 +214,17 @@ margin-top: -70px;
 @media (min-width:768px) and (max-width: 1200px) {
     #caixa div.blog{
         min-width: 250px;
-        height: 370px;
+        height: 380px;
            
     }
+
+    #caixa{
+        width: 90vw;
+        height: 70vh; 
+        margin: 0;
+       
+    }
+
 
     .imagem img {
         width: 100%;
