@@ -41,11 +41,11 @@ a{
 
 main section ol{
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 section ol li{
-    padding: 15px;
+    padding: 13px;
 }
 
 main >section{
@@ -82,8 +82,10 @@ main >.sec1,.sec3{
 }
 
 .sec3 > h1{
-    font-weight: 640;
+    font-weight: 700;
     padding-bottom: 30px;
+    font-size: 1.8em;
+    color: #011722;
 }
 
 .sec1 p{
@@ -95,6 +97,16 @@ main >.sec1,.sec3{
     color: var(--cor1);
 }
 
+.sec2 li{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: 550;
+    color: #041f2c;
+    border: 1px solid #C1DCE9;
+    border-radius: 15px 30px;
+    margin-bottom: 5px;
+}
+
 .sec2 a{
     background-color: rgb(209, 209, 9);
     color: black;
@@ -102,11 +114,15 @@ main >.sec1,.sec3{
     margin-bottom: 20px;
     margin-left: 20px;
     border-radius: 50px;
-    padding: 10px;
+    padding: 12px;
 }
 .sec2 a:hover{
     text-decoration: underline;
     background-color: rgb(172, 172, 5)
+}
+.sec2 a img{
+    height: 14px; 
+    padding-left: 2px; 
 }
 
 .sec1 p, .sec2 p, .sec4 p{
@@ -133,11 +149,45 @@ main section p{
 
 .sec2 .imagem{
     text-align: center;
-    padding: 20px;
+    padding: 15px;
+    margin-left: 20px;
 }
 .sec2 .imagem img{
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 10%;
+}
+
+.sec2 {
+    padding-bottom: 50px;
+}
+
+.sec2 li img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+article{
+    background-color: hsla(0, 3%, 85%, 0.404);
+    margin-left: 25px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+article p {
+    padding: 5px;
+    margin-top: -24px;
+}
+
+article div{
+    display: inline-block;
+    width: 200px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+article div img{
+    width: 100%;
+    height: 100%;
 }
 
 

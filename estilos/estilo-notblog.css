@@ -77,8 +77,8 @@ justify-content: center;
 align-items: center;
 font-weight: lighter;
 margin-top: -70px;
-
 }
+
 
 .sec4 > h1{
     padding-top: 30px;
@@ -86,13 +86,10 @@ margin-top: -70px;
 
 #span1{
    margin-left: 0%;
-   background-color: var(--cor5); 
    
 }
 #span2{
-    margin-left: 10%;
-    background-color: var(--cor5); 
-    
+    margin-left: 10%;  
 }
 
 #span1:hover{
