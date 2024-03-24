@@ -168,7 +168,7 @@ main section p{
 
 article{
     background-color: hsla(0, 3%, 85%, 0.404);
-    margin-left: 25px;
+    margin-left: 10px;
     margin-top: 10px;
     padding: 10px;
 }
@@ -181,8 +181,7 @@ article p {
 article div{
     display: inline-block;
     width: 200px;
-    padding: 5px;
-    margin-left: 5px;
+    padding: 10px;
 }
 
 article div img{
