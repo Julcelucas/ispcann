@@ -180,7 +180,7 @@ article p {
 }
 
 article div{
-    display: inline-block;
+    display: inline-flex;
     width: 170px;
     height: 130px;
     padding: 10px;
