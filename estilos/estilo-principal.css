@@ -168,23 +168,27 @@ main section p{
 }
 
 article{
-    background-color: hsla(0, 3%, 85%, 0.404);
-    margin-top: 10px;
+    background-color: hsla(0, 3%, 85%, 0.726);
+    margin-top: 40px;
     padding: 5px;
     width: 100%;
+    border-radius: 8px;
 }
 
 article p {
     padding: 5px;
     margin-top: -24px;
+    color: #0e5a74;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 article div{
     display: inline;
+    
 }
 
 article div img{
-    width: 45%;
+    width: 48%;
     height: 160px;
     padding: 10px;
 }
