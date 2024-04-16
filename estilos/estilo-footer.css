@@ -80,7 +80,8 @@ footer p,a{
 
 .nam {
     text-align: center;
-    margin-left: -50px;
+    margin-left: 100px;
+    display: inline;
 }
 
 footer .extra{
@@ -116,6 +117,17 @@ footer > .info2 > p .julce:hover{
     color: rgb(105, 105, 17);
 }
 
+
+.coracao{
+  display: inline;
+  margin-left: -30px;
+  transition: tr;
+}
+
+.coracao img{
+    width: 20px;
+    
+}
 
 @media screen and (min-width:768px) and (max-width:2600px) {
     
