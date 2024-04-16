@@ -82,6 +82,7 @@ footer p,a{
 
 .nam { 
    text-align: center; 
+   margin-left: -35px;
 }
 
 footer .extra{
