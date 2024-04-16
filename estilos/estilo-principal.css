@@ -184,28 +184,40 @@ main section p{
 }
 
 article{
-    background-color: hsla(0, 13%, 95%, 0.726);
     margin-top: 40px;
     padding: 5px;
     width: 100%;
-    border-radius: 5px;
+     
+}
+
+.art1, .art3{
+    border: 1px solid #EFE51B;
+    border-radius: 15px; 
+}
+
+.art2, .art4{
+    border: 1px solid #0B75B1;
+    border-radius: 20px;
+}
+
+.art5{
     
 }
 
 article p {
     padding: 5px;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-top: -24px;
-    color: #0e5a74;
+    color: black;
     font-family: 'PT Sans', sans-serif;
 }
 
-article div{
+aside div{
     display: inline;
     
 }
 
-article div img{
+aside div img{
     width: 48%;
     height: 160px;
     padding: 10px;
