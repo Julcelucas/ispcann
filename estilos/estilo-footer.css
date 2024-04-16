@@ -75,14 +75,13 @@ footer p,a{
     margin-top: 30px;
 }
 
-.julce {
+.juice {
     text-align: center;
     
 }
 
 .nam { 
-    margin-left: 100px;
-    display: inline;
+   text-align: center; 
 }
 
 footer .extra{
