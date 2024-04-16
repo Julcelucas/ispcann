@@ -132,7 +132,7 @@ main >.sec1,.sec3{
 .sec1 p, .sec2 p, .sec4 p{
     padding-top: 30px;
     line-height: 1.5em;
-    font-size: 0.9em;
+    font-size: 1em;
   
 }
 
@@ -146,6 +146,7 @@ h1{
 
 main section p{
     font-family: 'PT Sans', sans-serif;
+    
 }
 
 
@@ -155,7 +156,7 @@ main section p{
     margin-left: 20px;
 }
 .sec2 .imagem img{
-    width: 100%;
+    width: 86%;
     height: 10%;
 }
 
@@ -191,12 +192,12 @@ article{
 }
 
 .art1, .art3{
-    border: 1px solid #EFE51B;
+    border: 2px solid #EFE51B;
     border-radius: 15px; 
 }
 
 .art2, .art4{
-    border: 1px solid #0B75B1;
+    border: 2px solid #0B75B1;
     border-radius: 20px;
 }
 
