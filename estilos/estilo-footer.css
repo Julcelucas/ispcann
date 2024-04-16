@@ -46,7 +46,7 @@ footer{
     background-image: linear-gradient(to right,rgb(48, 47, 47), rgb(27, 26, 26));
     box-shadow: 0px 0px 10px black;
     display: block;
-    padding: 20px;
+    padding: 50px;
 }
 
 footer p,a{
