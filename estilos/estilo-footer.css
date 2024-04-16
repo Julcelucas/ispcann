@@ -69,7 +69,7 @@ footer p,a{
 }
 
 .center img{
-    width: 73px;
+    width: 60px;
     margin-top: 30px;
 }
 
@@ -120,12 +120,14 @@ footer > .info2 > p .julce:hover{
 
 .coracao{
   display: inline;
-  margin-left: -30px;
-  transition: tr;
+  margin-left: -27px;
+  
+  
 }
 
 .coracao img{
     width: 20px;
+    margin-bottom: -5px;
     
 }
 
