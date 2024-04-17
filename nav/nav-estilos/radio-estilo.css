@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main
+{
+    background-color: white;
+}
+
+h1{
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+main p{
+    padding: 15px;
+    line-height: 1.4em;
+    margin-left: 20px;
+}
+
+
+.secc2{
+    width: 90%;
+    border: 1px solid rgb(2, 26, 43);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.radio{
+    text-align: center;
+}
+
+audio{
+    width: 80%;
+}
+
+

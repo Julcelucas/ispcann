@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ispcan</title>
+    <link rel="shortcut icon" href="imagens/cardeal-ico.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/estilo-principal.css">
+    <link rel="stylesheet" href="estilos/estilo-header.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="estilos/estilo-slides.css">
+    <link rel="stylesheet" href="estilos/estilo-noticia.css">
+    <link rel="stylesheet" href="estilos/estilo-notblog.css">
+    <link rel="stylesheet" href="estilos/estilo-footer.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Cabeçalho com menu-->
+        <nav>
+            <ul class="nav-bar">
+                <li class="logo"> <div> <img src="imagens/cardeal-ico.png" alt="logo"><p>Instituto Cardeal <br>Dom Alexandre <br> do Nascimento</p></div></li>
+                <input type="checkbox" name="check" id="icheck">
+                <span class="menu"> 
+                   
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="nav/cursos.html">Cursos</a></li>
+                    <li><a href="nav/noticias.html">Noticías</a></li>
+                    <li><a href="https://ispcan.siga.ao/" target="_blank">SIGA</a></li>
+                    <li><a href="nav/inscrições.html">Inscrições</a></li>
+                    <li><a href="nav/biblioteca.html">Biblioteca Virtual</a></li>
+                    <li><a href="nav/radio.html" target="_self">Radio Online</a></li>
+                    <li><a href="nav/sobre.html">Sobre</a></li>
+                    
+                    <label for="icheck" class="close-menu"> <span class="material-symbols-outlined">close</span></label>
+                </span>
+                <label for="icheck" class="open-menu"> <span class="material-symbols-outlined">menu</span></label>
+            </ul>
+        </nav>
+         <!-- Fim do cabeçalho com menu-->
+
+         <!--Criando os slides-->
+         <div class="slider">
+        
+            <div class="slides">
+                <!-- Botoes de radio-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <!-- Botoes de radio fim-->
+    
+                <!--Slides de imagens-->
+                <div class="slide first">
+                    <img src="imagens/slides/imagem2.jpg" alt="imagem1">
+                </div>
+                <div class="slide">
+                    <img src="imagens/slides/imagem1.jpg" alt="imagem2">
+                </div>
+                <!--Slides de imagens fim-->
+    
+                 <!--Bolinhas de navegacao-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                </div>
+                <!--Bolinhas de navegacao-->
+            </div>
+    
+            <!-- Label Navegacao-->
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+            </div>
+            <!-- Label Navegacao-->
+        </div>
+        <!--Fim dos slides-->
+
+    </header>
+    
+
+    <!--Organizando main e o conteúdo-->
+    <main>
+        <!--Seja Bem-Vindo-->
+       <section class="sec1">
+        <h1>Bem-Vindo ao portal online <br>do Ispcan</h1>
+        <p>Aqui, exploramos o vasto mundo do conhecimento, promovendo aprendizado, inovação e descobertas. Este portal apresenta páginas repletas de oportunidades educacionais e experiências enriquecedoras. Junte-se a nós nesta jornada de aprendizado contínuo e inspiração acadêmica. Seja bem-vindo à comunidade acadêmica que busca excelência em cada passo.</p>
+       </section> 
+       
+       <!--Departamento e cuursos-->
+       <section class="sec2">
+        <h1>Departamentos e Cursos</h1>
+        <p>O Instituto Superior Politécnico Dom Alexandre Cardeal do Nascimento encontra-se situado na província de Malanje, Angola. Actualmente conta com um grande número de cursos técnicos e profissionais ligados as áreas Sociais, Medicina e Engenharia.
+        </p>
+
+        <div class="imagem">
+            <img src="imagens/ilustracao1.jpg" alt="imagem1">
+           </div>
+        <p>Actualmente conta com três departamentos, responsáveis pelo gerenciamento dos cursos das suas respectivas áreas. Estes são os referidos departamentos:
+        </p>
+        <ol>
+            <li><img src="imagens/Depart/sociolo.png" alt="socio">DPT° DE CIÊNCIAS SOCIAIS, HUMANAS E ECONÓMICAS</li>
+            <li> <img src="imagens/Depart/computador1.png" alt="computador">DPT° DE ENGENHARIA E TECNOLOGIAS</li>
+            <li> <img src="imagens/Depart/medicine1.png" alt="medicine">DPT° DE CIÊNCIAS DA SAÚDE</li>
+        </ol>
+        <a href="nav/cursos.html">Mais sobre os nossos cursos <img src="imagens/seta-direita.png" alt="seta"></a>
+       </section>
+
+       <!--Noticias e eventos-->
+       <section class="sec3" >
+        <h1>Noticias e Eventos</h1>
+        <!--Caixa Sinza de Rolagem-->
+        <div id="caixa" class="scroll" id="blog">
+            <!--Caixas dos Posts. Imagem e Texto-->
+            
+                <div class="blog">
+                    <div class="imagem">
+                        <img src="imagens/noticias/pexels1.jpg" alt="imagem">
+                    </div>
+                    <div class="texto">
+                        <span>09 February 2024 / Web Design</span>
+                        <a href="#" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
+                        <a href="#" class="ler">Ler Mais</a>
+                    </div>
+                </div>
+        
+            <div class="blog">
+                <div class="imagem">
+                    <img src="imagens/noticias/imagem2.jpg" alt="imagem">
+                </div>
+                <div class="texto">
+                    <span>09 February 2024 / Web Design</span>
+                    <a href="#" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
+                    <a href="#" class="ler">Ler Mais</a>
+                </div>
+            </div>
+
+            <div class="blog">
+                <div class="imagem">
+                    <img src="imagens/noticias/pexels2.jpg" alt="imagem">
+                </div>
+                <div class="texto">
+                    <span>09 February 2024 / Web Design</span>
+                    <a href="#" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
+                    <a href="#" class="ler">Ler Mais</a>
+                </div>
+            </div>
+
+            <div class="blog">
+                <div class="imagem">
+                    <img src="imagens/noticias/imagem1.jpg" alt="imagem">
+                </div>
+                <div class="texto">
+                    <span>09 February 2024 / Web Design</span>
+                    <a href="#" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
+                    <a href="#" class="ler">Ler Mais</a>
+                </div>
+            </div>
+
+            <div class="blog">
+                <div class="imagem">
+                    <img src="imagens/noticias/pexels1.jpg" alt="imagem">
+                </div>
+                <div class="texto">
+                    <span>09 February 2024 / Web Design</span>
+                    <a href="#" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
+                    <a href="#" class="ler">Ler Mais</a>
+                </div>
+            </div>
+             
+            <div class="blog">
+                <div class="imagem">
+                    <img src="imagens/noticias/imagem2.jpg" alt="imagem">
+                </div>
+                <div class="texto">
+                    <span>09 February 2024 / Web Design</span>
+                    <a href="#" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
+                    <a href="#" class="ler">Ler Mais</a>
+                </div>
+            </div>
+        </div>
+           
+    </section>
+    <div class="span">
+        <img src="ico/seta-esquerda.png" alt="arrow_back" onclick="scrolll()" id="span1">
+        <img src="ico/seta-direita.png" alt="arrow_forward" onclick="scrollr()" id="span2">
+    </div> 
+       
+
+       <!--Quem Somos Nós-->
+       <section class="sec4">
+        <h1>Quem Somos Nós?</h1>
+
+        <article class="art1">
+            <p>O Instituto Superior Politécnico Dom Alexandre Cardeal do Nascimento (ISPCAN) é uma instituição de ensino superior localizada na província de Malanje, Angola. Somos uma referência educacional na região, dedicada a cultivar o saber, promover a excelência e capacitar jovens nas áreas Sociais, Medicina e Engenharia.</p>
+        </article>
+
+        
+            <article class="art2">
+                <p>No ISPCAN, acreditamos no poder transformador da educação e estamos comprometidos em proporcionar oportunidades de aprendizado de qualidade que permitam o desenvolvimento integral de nossos estudantes.</p>
+            </article>
+
+            <div class="imagemm">
+                <img src="imagens/ilustracao2.jpg" alt="imagem">
+            </div>
+                
+        
+        
+        <article class="art3">
+            <p>Como uma instituição privada, temos a missão de potencializar o talento local e contribuir para o progresso da comunidade de Malanje. Destacamo-nos por oferecer uma ampla variedade de cursos técnicos e profissionais, com ênfase especial em Engenharia, atendendo à crescente demanda por profissionais qualificados nessas áreas em todo o país.</p>
+        </article>
+        
+        <article class="art5">
+            <p>No centro da nossa identidade está o compromisso com a excelência acadêmica, a inovação e o progresso social. Somos uma comunidade dedicada à busca constante do conhecimento e ao fortalecimento das habilidades dos nossos alunos para que possam enfrentar os desafios do mundo atual e contribuir para um futuro mais próspero.</p>
+        </article>
+
+        <aside>
+            <div class="article1">
+                <img src="imagens/Depart/imagem1.jpg" alt="imagem">
+            </div>
+            
+            <div class="article2">
+                <img src="imagens/Depart/imagem2.jpg" alt="imagem">
+            </div>
+            <div class="article3">
+                <img src="imagens/Depart/imagem3.jpg" alt="imagem">
+            </div>
+            <div class="article4">
+                <img src="imagens/Depart/imagem4.jpg" alt="imagem">
+            </div>
+        </aside>
+        
+            <article class="art4">
+                <p>Seja você um estudante em busca de uma formação sólida e relevante, um profissional em busca de desenvolvimento contínuo ou um parceiro em potencial interessado em colaborar conosco, o ISPCAN é o lugar onde as aspirações se tornam realidade e o potencial se transforma em sucesso. Junte-se a nós em nossa missão de inspirar, educar e capacitar as mentes do amanhã.</p>
+            </article>
+
+       </section>
+    </main>
+
+    <aside class="footer1">
+        <div class="redes">
+            <h1>Siga o Ispcan</h1>
+            <div class="redes-sociais">
+                <a href="facebook.html" target="tela"><img src="imagens/footer/logo-facebook.png" alt="face"></a>
+                <a href="instagram.html" target="tela"><img src="imagens/footer/logo-instagram.png" alt="insta"></a>
+                <a href="twitter.html" target="tela"><img src="imagens/footer/logo-twitter.png" alt="twit"></a>
+                <a href="youtube.html" target="tela"><img src="imagens/footer/logo-youtube.png" alt="youtu"></a>
+            </div> 
+        </div>
+    </aside>
+
+    <footer class="footer2">
+        <div class="info">
+            <p><img src="imagens/footer/p-img/location.png" alt="local">Localização</p>
+                <p class="extra">Bairro Catepa - Zona da Voanvoala do Meio, por detrás do IMNE -Malanje</p><hr>
+
+            <p><img src="imagens/footer/p-img/contact_mail.png" alt="cont"> Contactos</p>
+                <p class="extra">Telefones: 940928490/940928490 <br>
+                    E-mail: ispcan22@gmail.com.</p><hr>
+            
+            <p><img src="imagens/footer/p-img/alarm.png" alt="hour">Atendimento</p>
+                <p class="extra"> Segunda a Sexta-feira, 08:00 - 18:00 <br>
+                Sábado: 08:00 - 12:00</p><hr>
+
+           <p><a href="#" class="impo"><img src="imagens/footer/p-img/menu_book.png" alt="book">Biblioteca Virtual (clique)</a></p>
+           <p><a href="#" class="impo"><img src="imagens/footer/p-img/radio.png" alt="radio">Nossa Rádio Online (clique)</a></p><hr>
+        </div>
+
+        <div class="info2">
+            <p class="copy">&copy; Copyright 2024. Todos Os Direitos Reservados. ISPCAN</p>
+            <div class="center"><img src="imagens/cardeal-ico.png" alt="cardeal"></div>
+            <p class="juice">Site feito
+            pelo estudante de Engenharia 
+        de Telecomunicaçoes, do 5º ano.</p></div>
+            
+        <p class="nam"><a href="#" class="julce">Julce Lucas</a><img src="imagens/coracao.png" alt="coracao" class="coracao">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
