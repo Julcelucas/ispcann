@@ -35,7 +35,14 @@ main p{
 }
 
 audio{
+    margin-top: 15px;
     width: 80%;
 }
+
+audio::-webkit-media-controls-panel{
+    background-color: rgba(127, 131, 136, 0.61);
+
+}
+
 
 

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+
+
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bolder;
+    
+}
+
+h2{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 1.2em; 
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+h3{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 1.2em; 
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+main ul, ol{
+  padding-left: 40px;  
+}
+main li{
+    padding: 2px;
+}
+
+main ol li{
+   padding: 3px; 
+}
+
+
+main li{
+    font-family: 'Domine', serif;
+    font-size: 1.1em;
+}
+
+main p{
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.94em;
+    font-weight: normal;
+}
+
+article{
+    padding: 20px;
+}
+
+.carticle1{
+
+}
+

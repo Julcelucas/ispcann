@@ -27,9 +27,7 @@
     --cor7: #EFE51B;                 
 
 }
-html{
-    overflow-x: auto;
-}
+
 body, html{
     width: 100%;
     height: 100%;
@@ -38,194 +36,16 @@ body, html{
 
 a{
     text-decoration: none;
-    cursor: pointer;
-    text-decoration: underline;
 }
-
-main section ol{
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
-section ol li{
-    padding: 13px;
-}
-
-main >section{
-    padding:20px 10px 20px 10px;
-    box-shadow: 2px 2px 5px white;
-
-}
-
-main section > h1,p,a,ol{
-    padding-left: 30px;
-}
-
-
- main section{
-    
-}
-
-main > .sec4{
-    margin-top: 10px;
-    padding-bottom: 60px;
-}
-
-main >.sec1,.sec3{
-    background-image: linear-gradient(to right,rgb(22, 72, 85), rgb(8, 140, 173));
-    box-shadow: 2px 2px 2px var(--cor6);
-    border: none;
-}
-
-.sec2, .sec4{
-    background-color: #FDFDFE;
-}
-
-.sec1 > h1{
-    font-weight: 560;   
-}
-
-.sec3 > h1{
-    font-weight: 700;
-    padding-bottom: 30px;
-    font-size: 1.8em;
-    color: #011722;
-}
-
-.sec1 p{
-    color: var(--cor1);
-}
-
-
-.sec3 p{
-    color: var(--cor1);
-}
-
-.sec2 li{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 1.1em;
-    font-weight: 550;
-    color: #041f2c;
-    border: 1px solid #C1DCE9;
-    border-radius: 15px 30px;
-    margin-bottom: 5px;
-}
-
-.sec2 a{
-    background-color: rgb(209, 209, 9);
-    color: black;
-    text-decoration: none;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    border-radius: 50px;
-    padding: 12px;
-}
-.sec2 a:hover{
-    text-decoration: underline;
-    background-color: rgb(172, 172, 5)
-}
-.sec2 a img{
-    height: 14px; 
-    padding-left: 2px; 
-}
-
-.sec1 p, .sec2 p, .sec4 p{
-    padding-top: 30px;
-    line-height: 1.5em;
-    font-size: 1em;
-  
-}
-
 
 h1{
     font-family: 'Roboto Slab', serif;
     text-align: center;
-  
 }
 
-
-main section p{
-    font-family: 'PT Sans', sans-serif;
-    
-}
-
-
-.sec2 .imagem{
-    text-align: center;
-    padding: 15px;
-    margin-left: 20px;
-}
-.sec2 .imagem img{
-    width: 86%;
-    height: 10%;
-}
-
-.sec2 {
-    padding-bottom: 50px;
-}
-
-.sec2 li img{
-    width: 20px;
-    margin-right: 5px;
-}
-
-
-
-
-
-
-.sec4 .imagemm{
-    text-align: center;
-    padding: 15px;
-    margin-left: 20px;
-}
-.sec4 .imagemm img{
-    width: 100%;
-    height: 10%;
-}
-
-article{
-    margin-top: 40px;
-    padding: 5px;
-    width: 100%;
-     
-}
-
-.art1, .art3{
-    border: 2px solid #EFE51B;
-    border-radius: 15px; 
-}
-
-.art2, .art4{
-    border: 2px solid #0B75B1;
-    border-radius: 20px;
-}
-
-.art5{
-    
-}
-
-article p {
-    padding: 5px;
-    margin-left: 15px;
-    margin-top: -24px;
-    color: black;
+main p{
     font-family: 'PT Sans', sans-serif;
 }
-
-aside div{
-    display: inline;
-    
-}
-
-aside div img{
-    width: 48%;
-    height: 160px;
-    padding: 10px;
-    margin-left: 5px;
-}
-
-
 
 
 
