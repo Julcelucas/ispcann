@@ -48,7 +48,8 @@ main section > h1,p,a,ol{
             font-weight: lighter;
             float: right;
             margin-left: -55px;
-            font-family: "Roboto", sans-serif; ;
+            font-family: "Roboto", sans-serif; 
+            font-weight: bolder;
 }
 
 
