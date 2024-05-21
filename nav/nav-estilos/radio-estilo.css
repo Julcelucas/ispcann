@@ -54,6 +54,74 @@ audio::-webkit-media-controls-panel{
 
 }
 
+
+.banner-card{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-bottom: 35px;
+    
+}
+
+.banner-card img{
+    width: 430px;
+    border-radius: 40px;
+}
+
+.banner-text{
+   position: absolute;
+   top: 0;
+   padding: 10px;
+   opacity: 0.7;
+   background-color: rgba(15, 15, 15, 0.815);
+   width: 90%;
+   height: 100%;
+   transform: translateX(20px);
+   overflow-x: hidden;
+   border-radius: 35px;
+}
+
+.radioo h1{
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Domine', serif;
+    
+}
+
+
+ .banner-card p{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding-top: 140px;
+ }
+
+ .radioo{
+    display: inline;
+ }
+ .radioo span{
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(236, 236, 42);
+    float: left;
+    transform: translateX(20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .wrapper{
     width: 100%;
     height: 100%;   
