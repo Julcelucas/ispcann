@@ -40,8 +40,76 @@ audio{
 }
 
 audio::-webkit-media-controls-panel{
-    background-color: rgba(127, 131, 136, 0.61);
+    background-color: rgb(214, 215, 216);
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+    width: 100%;
+    height: 100%;   
+    
+}
+
+.image{
+    text-align: center;
+    position: relative;
+    border-radius: 30px;
+}
+
+img{
+    width: 400px;
+    border-radius: 30px;
+}
+
+.content{
+    width: 400px;
+    height: 100%;
+    transform: translateX(40px);
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(15, 15, 15, 0.815);
+    display: block;
+    opacity: 0.7;
+    border-radius: 30px;
+}
+
+
+.content span{
+    font-size: 50px;
+    color: rgb(236, 236, 42);
+    margin-bottom: 15px;
+   
+}
+.content h1{
+    color: white;
+}
+.content p{
+    color: white;
+}
+
+.content > *{
+    transform: translateY(25px);
+    
+}
+
+.radio{
+    width: 100%;
+    display: inline;
+    margin-left: -300px;
 }
 
 
