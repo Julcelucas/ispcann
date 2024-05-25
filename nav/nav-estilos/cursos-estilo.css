@@ -80,7 +80,7 @@ article{
 }
 
 div .imagenn{
-    width: 350px;
+    width: 310px;
     height: 350px;
     display: block;
     margin: auto;
@@ -106,13 +106,18 @@ section{
     width: 100%;
 }
 
-.cursoss h2,h3, li{
+.cursoss h2,h3, li, p{
     padding: 15px;
 }
 
-ul, ol{
+.cursoss ul, ol{
     padding-bottom: 20px;
 }
+
+#cursos4 p{
+    padding: 25px;
+}
+
 
 #cursos2, #cursos3, #cursos4{
     margin-top: 30px;
