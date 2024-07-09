@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: rgb(38, 141, 141); 
+    padding-bottom: 10px;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 1.2em; 
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+h3{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 1.2em; 
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+main ul, ol{
+  padding-left: 40px;  
+}
+main li{
+    padding: 10px;
+}
+
+main ol li{
+   padding: 3px; 
+}
+
+
+main li{
+    font-family: 'Domine', serif;
+    font-size: 1.1em;
+}
+
+main p{
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.94em;
+    font-weight: normal;
+}
+
+img{
+    width: 450px;
+    height: 10%;
+    text-align: center;
+       
+}
+
+
+/*Css para a rolagem lateral*/
+
+.artigoo {
+    position: relative;
+    height: 800px;
+    border: 2px solid rgba(0, 0, 0, 0.171);
+  }
+
+  .artigoo {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    --cor1: white; 
+    --cor2: rgb(8, 42, 51);
+}
+
+main section > h1,p,a,ol{
+    padding-left: 30px;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    padding: 10px;
+    background-color: var(--cor2);
+    box-shadow: 2px 2px 5px var(--cor6);
+    text-align: center;
+}
+
+.logo img{  width: 20%;
+            margin-left: 65px;
+            margin-right: -10px;
+}
+
+.logo p{    padding-top: 1px;
+            display: inline;
+            color: rgb(218, 218, 218);
+            font-size: 0.8em;
+            font-weight: lighter;
+            float: right;
+            margin-left: -55px;
+            font-family: "Roboto", sans-serif; 
+            font-weight: bolder;
+}
+
+
+@media screen  and (min-width:320px)and (max-width: 1050px) {
+   
+}
+
+@media screen and (min-width:520px) and (max-width:1050px){
+
+}
+
+@media screen and (min-width: 1050px){}
+   
+
+
+
+/*.menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--cor2);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .menu li{margin-top: 40px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu{display: block;}
+    .close-menu{ margin-top: -92px;}
+    #icheck:checked ~ .menu{right: 0;}
+}
