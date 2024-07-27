@@ -71,13 +71,13 @@ img{
 
 /*Css para a rolagem lateral*/
 
-.artigoo {
+.artigu {
     position: relative;
     height: 800px;
     border: 2px solid rgba(0, 0, 0, 0.171);
   }
 
-  .artigoo {
+  .artigu {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -96,7 +96,7 @@ img{
     font-size: 18px;
     background: #fff;
     display: flex;
-    
+    padding: 10px;
   }
 
   .swiper-slide img {
@@ -109,4 +109,59 @@ img{
   .swiper {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .swiper-button-next,.swiper-button-prev{
+    display: none;
+  }
+
+  /*Livros da rolagem lateral*/
+
+  .carde{
+    border: 1px solid rgb(179, 179, 160);
+    height: 335px;
+    width: 200px;
+    align-items: center;
+  }
+
+  .livro{
+    width: 70%;
+    height: 230px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .livro img{
+    
+  }
+
+  .carde p{
+    padding: px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.8em;
+  }
+
+  .branco{
+    background-color: white;
+  }
+  .cinzento{
+    background-color: rgba(224, 224, 224, 0.596);
+    padding-bottom: 15px;
+  }
+
+  .separator{
+    width: 0;
+    height: 0;
+    border-right: 40vw solid transparent;
+    border-bottom: 13.9vw solid rgba(224, 224, 224, 0.596);
+    margin-top: -12vh;
+  }
+
+  .baixar{
+    width: 60%;
+    background-color: rgb(38, 141, 141);;
+    color: white;
+    margin: auto;
   }
