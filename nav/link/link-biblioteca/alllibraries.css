@@ -61,19 +61,14 @@ main p{
     font-weight: normal;
 }
 
-img{
-    width: 450px;
-    height: 10%;
-    text-align: center;
-       
-}
+
 
 
 /*Css para a rolagem lateral*/
 
 .artigu {
     position: relative;
-    height: 800px;
+    height: 920px;
     border: 2px solid rgba(0, 0, 0, 0.171);
   }
 
@@ -95,9 +90,13 @@ img{
     text-align: center;
     font-size: 18px;
     background: #fff;
-    display: flex;
+    
     padding: 10px;
   }
+
+  
+
+  
 
   .swiper-slide img {
     display: block;
@@ -119,9 +118,11 @@ img{
 
   .carde{
     border: 1px solid rgb(179, 179, 160);
-    height: 335px;
-    width: 200px;
+    height: 410px;
+    width: 180px;
     align-items: center;
+    display: inline-block;
+    margin: 10px;
   }
 
   .livro{
@@ -134,34 +135,80 @@ img{
   }
 
   .livro img{
+    width: 100%;
+    height: 230px;
     
   }
 
   .carde p{
     padding: px;
+    margin-bottom: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
+    color: white;
+  }
+
+  .carde a{
     font-family: 'PT Sans', sans-serif;
     font-size: 0.8em;
+    color: white;
+    padding: 12px;
   }
 
   .branco{
-    background-color: white;
+    background-color: rgba(201, 195, 195, 0.288);
   }
   .cinzento{
-    background-color: rgba(224, 224, 224, 0.596);
-    padding-bottom: 15px;
+    background-color: rgba(15, 152, 156, 0.541);
+    padding-bottom: 35px;
   }
 
   .separator{
     width: 0;
     height: 0;
-    border-right: 40vw solid transparent;
-    border-bottom: 13.9vw solid rgba(224, 224, 224, 0.596);
-    margin-top: -12vh;
+    border-right: 35vw solid transparent;
+    border-bottom: 13.9vw solid rgba(15, 152, 156, 0.541);
+    margin-top: -9vh;
   }
 
-  .baixar{
+  .baixar1{
     width: 60%;
-    background-color: rgb(38, 141, 141);;
+    background-color: rgb(20, 95, 95);;
     color: white;
     margin: auto;
+    cursor: pointer;
+    border-radius: 0px 15px 0px 15px;
   }
+
+  .baixar2{
+    width: 60%;
+    background-color: rgb(155, 155, 19);
+    color: white;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 0px 15px 0px 15px;
+  }
+
+  .baixar3{
+    width: 60%;
+    background-color: rgb(7, 107, 165);;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 0px 15px 0px 15px;
+  }
+
+  .baixar4{
+    width: 60%;
+    background-color: rgb(74, 167, 20);;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 0px 15px 0px 15px;
+  }
+
+  #baixar:hover{
+    text-decoration: underline;
+  }
+
+  
