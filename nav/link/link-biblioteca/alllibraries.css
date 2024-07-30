@@ -118,11 +118,12 @@ main p{
 
   .carde{
     border: 1px solid rgb(179, 179, 160);
-    height: 410px;
-    width: 180px;
+    height: 364px;
+    width: 150px;
     align-items: center;
     display: inline-block;
     margin: 10px;
+    border: 1px solid rgb(2, 166, 172);
   }
 
   .livro{
@@ -132,6 +133,7 @@ main p{
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+    
   }
 
   .livro img{
@@ -145,14 +147,17 @@ main p{
     margin-bottom: 40px;
     font-family: 'PT Sans', sans-serif;
     font-size: 1em;
-    color: white;
+    color: rgb(1, 71, 73);;
   }
 
   .carde a{
     font-family: 'PT Sans', sans-serif;
     font-size: 0.8em;
     color: white;
-    padding: 12px;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    
   }
 
   .branco{
@@ -160,51 +165,39 @@ main p{
   }
   .cinzento{
     background-color: rgba(15, 152, 156, 0.541);
-    padding-bottom: 35px;
+    padding-bottom: 10px;
   }
 
   .separator{
     width: 0;
     height: 0;
-    border-right: 35vw solid transparent;
+    border-right: 30vw solid transparent;
     border-bottom: 13.9vw solid rgba(15, 152, 156, 0.541);
-    margin-top: -9vh;
+    margin-top: -12vh;
   }
 
   .baixar1{
-    width: 60%;
     background-color: rgb(20, 95, 95);;
     color: white;
-    margin: auto;
     cursor: pointer;
-    border-radius: 0px 15px 0px 15px;
   }
 
   .baixar2{
-    width: 60%;
     background-color: rgb(155, 155, 19);
-    color: white;
-    margin: auto;
+    color: white;   
     cursor: pointer;
-    border-radius: 0px 15px 0px 15px;
   }
 
   .baixar3{
-    width: 60%;
     background-color: rgb(7, 107, 165);;
     color: white;
-    margin: auto;
     cursor: pointer;
-    border-radius: 0px 15px 0px 15px;
   }
 
   .baixar4{
-    width: 60%;
     background-color: rgb(74, 167, 20);;
     color: white;
-    margin: auto;
     cursor: pointer;
-    border-radius: 0px 15px 0px 15px;
   }
 
   #baixar:hover{
