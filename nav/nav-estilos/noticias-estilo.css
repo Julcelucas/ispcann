@@ -4,6 +4,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
 
+:root{
+    --cor1:#FCFCFA;                --fonte-padrão: Arial, Helvetica, sans-serif;
+    --cor2: rgb(8, 42, 51);        --fonte1: ; 
+    --cor3: #F3F3BA;               --fonte2: ;
+    --cor4: #C1DCE9;               --fonte3: ;
+    --cor5: #0B75B1;
+    --cor6: #3F636D;
+    --cor7: #EFE51B;                 ;
+
+}
+
 *{
     margin: 0;
     padding: 0;
