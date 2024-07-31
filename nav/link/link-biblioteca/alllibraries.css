@@ -118,10 +118,11 @@ main p{
 
   .carde{
     border: 1px solid rgb(179, 179, 160);
-    height: 364px;
-    width: 150px;
+    height: 390px;
+    width: 147px;
     display: inline-block;
     margin: 10px;
+    margin-bottom: 40px;
     border: 1px solid rgb(2, 166, 172);
   }
 
@@ -142,7 +143,7 @@ main p{
 
   .carde p{
     padding: px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     font-family: 'PT Sans', sans-serif;
     font-size: 1em;
     color: rgb(1, 71, 73);;
@@ -171,7 +172,7 @@ main p{
     height: 0;
     border-right: 30vw solid transparent;
     border-bottom: 13.9vw solid rgba(15, 152, 156, 0.541);
-    margin-top: -12vh;
+    margin-top: -5vh;
   }
 
   .baixar1{
