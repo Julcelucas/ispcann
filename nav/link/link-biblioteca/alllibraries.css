@@ -121,12 +121,12 @@ main p{
   .carde{
    
     width: 150px;
-  
+    margin: auto;
     margin: 10px;
     margin-bottom: 30px;
     border: 1px solid rgb(2, 166, 172);
     border-top-left-radius: 29px;
-    border-bottom-right-radius: 18px;
+    border-bottom-right-radius: 40px;
     display: inline-block;
   }
 
@@ -162,7 +162,7 @@ main p{
     margin-left: -2px;
     padding-right: 15px;
     padding-top: 5px;
-    border-bottom-right-radius: 18px;
+    border-bottom-right-radius: 25px;
   }
 
   .branco{
@@ -173,7 +173,7 @@ main p{
     background-color: rgba(15, 152, 156, 0.541);
     max-height: 170px;
     padding-bottom: 130px;
-   
+    border-bottom-right-radius: 13px;
     
   }
 
@@ -209,9 +209,19 @@ main p{
 
 }
 
+@media (min-width: 376px) and (max-width: 1200px) {
+
+  .artigu{
+    margin: auto;
+  }
+    }
 
 @media screen  and (min-width: 730px) 
 { 
+  .artigu{
+    width: 80%;  
+    }
+
   .carde{
     width: 100px;
     margin: 0px;
@@ -238,4 +248,54 @@ main p{
   .titlu{
     
   }
+ }
+
+ @media screen and (min-width: 768px) and (max-width:1400px){ 
+  
+  body{
+    background-color: rgb(235, 235, 235);
+  }
+  main{
+    margin: auto;
+    display: block;
+    width: 75%;
+    background-color: white;
+  }
+
+  main p{
+    font-size: 1.2em;
+  }
+
+  .artigu{
+  width: 80%;  
+  }
+
+  .swiper-slide{
+    padding: 10px;
+  }
+  .carde{
+    width: 180px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border-top-left-radius: 29px;
+    border-bottom-right-radius: 40px;
+    
+  }
+
+  .arti{
+    text-align: center;
+}
+
+.carde a{
+  padding-right: 45px;
+}
+
+.carde p{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2em;
+  color: rgb(1, 71, 73);
+  
+}
+
  }
