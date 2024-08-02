@@ -11,7 +11,8 @@
 }
 
 main{
-    padding: 20px;
+    padding: 10px;
+    padding-bottom: 39px;
 }
 
 h1{
@@ -66,10 +67,14 @@ main p{
 
 /*Css para a rolagem lateral*/
 
+@media screen  and (min-width: 100px) and (max-width:1400px){ 
+
 .artigu {
     position: relative;
-    height: 920px;
-    border: 2px solid rgba(0, 0, 0, 0.171);
+    margin-left: 0;
+    
+    height: 1000px;
+    border: 2px solid rgba(15, 152, 156, 0.541);
   }
 
   .artigu {
@@ -87,11 +92,10 @@ main p{
   }
 
   .swiper-slide {
-    text-align: center;
     font-size: 18px;
     background: #fff;
+    padding: px;
     
-    padding: 10px;
   }
 
   
@@ -99,15 +103,13 @@ main p{
   
 
   .swiper-slide img {
-    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
   .swiper {
-    margin-left: auto;
-    margin-right: auto;
+  
   }
 
   .swiper-button-next,.swiper-button-prev{
@@ -117,72 +119,74 @@ main p{
   /*Livros da rolagem lateral*/
 
   .carde{
-    border: 1px solid rgb(179, 179, 160);
-    height: 390px;
-    width: 147px;
-    display: inline-block;
+   
+    width: 150px;
+  
     margin: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     border: 1px solid rgb(2, 166, 172);
+    border-top-left-radius: 29px;
+    border-bottom-right-radius: 18px;
+    display: inline-block;
   }
 
   .livro{
-    width: 70%;
+    width: 80%;
     height: 230px;
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
     
   }
 
   .livro img{
     width: 100%;
-    height: 230px;
+    
     
   }
 
   .carde p{
-    padding: px;
-    margin-bottom: 50px;
     font-family: 'PT Sans', sans-serif;
     font-size: 1em;
-    color: rgb(1, 71, 73);;
+    color: rgb(1, 71, 73);
+    
+  }
+
+  .titlu{
+    text-align: center;
+    
   }
 
   .carde a{
     font-family: 'PT Sans', sans-serif;
-    font-size: 0.8em;
+    font-size: 1.1em;
     color: white;
-    padding: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
-    
+    margin-left: -2px;
+    padding-right: 15px;
+    padding-top: 5px;
+    border-bottom-right-radius: 18px;
   }
 
   .branco{
-    background-color: rgba(201, 195, 195, 0.288);
+    background-color: rgba(201, 195, 195, 0.842);
+    border-top-left-radius: 22px;
   }
   .cinzento{
     background-color: rgba(15, 152, 156, 0.541);
-    padding-bottom: 10px;
+    max-height: 170px;
+    padding-bottom: 130px;
+   
+    
   }
 
-  .separator{
-    width: 0;
-    height: 0;
-    border-right: 30vw solid transparent;
-    border-bottom: 13.9vw solid rgba(15, 152, 156, 0.541);
-    margin-top: -5vh;
-  }
+  
 
   .baixar1{
-    background-color: rgb(20, 95, 95);;
+    background-color: rgb(20, 95, 95);
     color: white;
     cursor: pointer;
   }
 
   .baixar2{
-    background-color: rgb(155, 155, 19);
+    background-color: rgb(20, 95, 95);
     color: white;   
     cursor: pointer;
   }
@@ -203,4 +207,35 @@ main p{
     text-decoration: underline;
   }
 
-  
+}
+
+
+@media screen  and (min-width: 730px) 
+{ 
+  .carde{
+    width: 100px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+  }
+
+  .livro{
+    width: 80%;
+  }
+
+  .livro img{
+    width: 100%;    
+  }
+
+  .carde a{
+    font-size: 1.1em;
+    margin-left: -2px;
+    padding-right: 14px;
+    
+  }
+
+  .titlu{
+    
+  }
+ }

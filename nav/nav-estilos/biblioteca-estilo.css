@@ -50,10 +50,16 @@ h3{
     padding-top: 10px;
     font-family: 'Domine', serif;
     font-size: 1.05em; 
+    
+}
+
+.lii{
+    margin-left: 10px;
 }
 
 .bibliotecaa li{
-    padding-top: 5px;
+    padding-top: 10px;
+
 }
 
 .bibliotecaa p{
