@@ -218,6 +218,11 @@ main p{
 
 @media screen  and (min-width: 730px) 
 { 
+
+  main h1{
+    font-size: 2em;
+  }
+
   .artigu{
     width: 80%;  
     }
@@ -250,7 +255,7 @@ main p{
   }
  }
 
- @media screen and (min-width: 768px) and (max-width:1400px){ 
+ @media screen and (min-width: 768px) { 
   
   body{
     background-color: rgb(235, 235, 235);
@@ -263,39 +268,109 @@ main p{
   }
 
   main p{
-    font-size: 1.2em;
+    font-size: 1.4em;
+  }
+
+  main ol, ul{
+    font-size: 1.4em;
   }
 
   .artigu{
-  width: 80%;  
+  width: 90%;  
+  height: 1200px;
   }
 
   .swiper-slide{
     padding: 10px;
   }
   .carde{
-    width: 180px;
+    width: 200px;
     margin: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-bottom: 30px;
     border-top-left-radius: 29px;
-    border-bottom-right-radius: 40px;
+    border-bottom-right-radius: 75px;
     
   }
 
   .arti{
-    text-align: center;
+    
 }
 
 .carde a{
-  padding-right: 45px;
+  padding-right: 65px;
+  border-bottom-right-radius: 70px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  font-size: 1.1em;
 }
 
 .carde p{
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: rgb(1, 71, 73);
   
 }
+
+.cinzento{
+  padding-bottom: 130px;
+  border-bottom-right-radius: 35px;
+  
+}
+
+
+ }
+
+ @media screen and (min-width: 992px) {
+  
+  .artigu{
+    width: 60%;
+    height: 1200px;  
+    margin: auto;
+    }
+
+    .carde{
+      margin-top: 50px;
+      margin-left: 40px;
+    }
+
+    .cinzento{
+      background-color: rgba(15, 152, 156, 0.541);
+      max-height: 200px;
+      padding-bottom: 130px;
+      border-bottom-right-radius: 13px;
+      
+    }
+ }
+
+ @media screen and (min-width: 1024px) {
+  .artigu{
+    width: 73%;
+    height: 1200px;  
+    margin: auto;
+    }
+
+    .carde{
+      margin-top: 50px;
+    }
+ }
+
+ @media screen and (max-width: 360px) {
+  .carde{
+    width: 130px;
+  }
+
+  .carde p{
+    font-size: 0.8em;
+  }
+
+  .carde a{
+    font-size: 0.8em;
+    color: white;
+    margin-left: -2px;
+    padding: 10px;
+    padding-right: 42px;
+    text-align: center;
+  }
 
  }

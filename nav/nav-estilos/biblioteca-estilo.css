@@ -76,7 +76,21 @@ h3{
    
 }
 
+@media screen and (max-width: 360px){
+    .lii{
+        margin-left: 0px;
+        margin-left: 10px;
+    }
 
+    ol,ul{
+     margin-left: -10px;   
+    }
+
+    li{
+        margin: 0;
+        text-indent: -10px;
+    }
+}
 
 
 
