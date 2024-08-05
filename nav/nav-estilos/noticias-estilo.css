@@ -23,7 +23,7 @@
 main{
     padding-top: 15px;
     padding-bottom: 50px;
-
+    
 }
 
 h1{
@@ -32,6 +32,7 @@ h1{
     font-size: 1.5em;
     font-weight: bolder;
     padding: 10px;
+    
 }
 
 main p{
@@ -41,6 +42,19 @@ main p{
     padding: 10px;
 }
 
+
+main p{
+    color: black;
+}
+
+main span{
+    color: rgb(82, 81, 81);
+}
+
+
+.news p{
+    text-align: justify;
+}
 .news img{
     width: 93%;
     text-align: center;
@@ -48,4 +62,77 @@ main p{
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+
+
+.noticiass{
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(231, 231, 231, 0.315);
+    border: 1px solid rgba(255, 255, 255, 0.89);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.noticiass a{
+    display: inline-block;
+    border-top: 1px solid rgba(148, 147, 147, 0.281);
+}
+
+.grande img{
+    width: 100%;
+    margin-left: -13px;
+}
+
+.grande > .motivo  p{
+    margin-left: -20px;
+}
+.grande > .motivo  span{
+    margin-left: -10px;
+}
+
+
+.pequeno{
+    padding-left: 50px;
+    border-top: 1px solid rgba(148, 147, 147, 0.281);
+    
+    
+}
+.pequeno img{
+    width: 50%;
+    height: 135px;
+    float: left;
+    margin-left: -30px;
+}
+
+.pequeno .motivo{
+    width: 55%;
+    float: right;
+    
+}
+
+.noticiass p{
+    font-size: 1.12em;
+}
+.noticiass span{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.92em; 
+    
+}
+
+.grande span{
+    margin-left: 20px; 
+}
+
+.pequeno p{
+    margin-left: 0px;
+}
+
+.pequeno span{
+    margin-left: 10px;
+}
+
+.noticiass p:hover{
+    text-decoration: underline;
 }
