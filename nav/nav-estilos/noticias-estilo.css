@@ -87,9 +87,14 @@ main span{
 
 .grande > .motivo  p{
     margin-left: -20px;
+    font-size: 1.4em;
 }
 .grande > .motivo  span{
     margin-left: -10px;
+}
+
+.motivo p{
+    
 }
 
 

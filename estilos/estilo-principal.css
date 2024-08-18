@@ -52,13 +52,13 @@ section ol li{
 }
 
 main >section{
-    padding:20px 10px 20px 10px;
+    padding: 10px;;
     box-shadow: 2px 2px 5px white;
 
 }
 
 main section > h1,p,a,ol{
-    padding-left: 30px;
+    
 }
 
 
@@ -66,9 +66,15 @@ main section > h1,p,a,ol{
     
 }
 
+main .sec1{
+    height: 300px;
+}
+
+
+
 main > .sec4{
     margin-top: 10px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 }
 
 main >.sec1,.sec3{
@@ -82,12 +88,13 @@ main >.sec1,.sec3{
 }
 
 .sec1 > h1{
-    font-weight: 560;   
+    font-weight: 560;  
+     color: black;
 }
 
 .sec3 > h1{
     font-weight: 700;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-size: 1.8em;
     color: #011722;
 }
@@ -130,7 +137,7 @@ main >.sec1,.sec3{
 }
 
 .sec1 p, .sec2 p, .sec4 p{
-    padding-top: 30px;
+    padding-top: 20px;
     line-height: 1.5em;
     font-size: 1em;
   
@@ -140,7 +147,8 @@ main >.sec1,.sec3{
 h1{
     font-family: 'Roboto Slab', serif;
     text-align: center;
-  
+    color: rgb(38, 141, 141);
+    font-size: 1.5em;;
 }
 
 
@@ -156,7 +164,7 @@ main section p{
     margin-left: 20px;
 }
 .sec2 .imagem img{
-    width: 86%;
+    max-width: 350px;
     height: 10%;
 }
 
@@ -185,7 +193,7 @@ main section p{
 }
 
 article{
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 5px;
     width: 100%;
      
@@ -211,21 +219,137 @@ article p {
     margin-top: -24px;
     color: black;
     font-family: 'PT Sans', sans-serif;
+    
 }
 
 aside div{
     display: inline;
-    
+    margin-left: 20px;
 }
 
 aside div img{
-    width: 48%;
-    height: 160px;
-    padding: 10px;
-    margin-left: 5px;
+    width: 150px;
+    height: 150px;
+    padding: 2px;
+    
 }
 
 
+
+
+@media screen and (min-width: 768px){ 
+  
+    body{
+      background-color: rgb(235, 235, 235);
+    }
+    main{
+      margin: auto;
+      display: block;
+      width: 80%;
+      background-color: white;
+    } 
+
+    main p{
+        max-width: 768px;
+        margin: auto;
+        display: block;    
+    }
+
+    
+
+    aside div{
+        margin-left: 40px;
+    }
+
+   
+   
+}
+
+/*Media Imagens*/
+@media screen and (max-width: 360px) {
+    aside div img{
+        max-width: 140px;
+        height: 140px;
+        padding: 5px;
+        
+    }
+
+
+}
+
+@media screen and (min-width: 540px) and (max-width: 768px){
+    aside div img{
+            width: 200px;
+            padding: 0px;
+            
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    aside div img{
+        width: 240px;
+        padding: 0px;
+        
+    }
+
+    .sec4 .imagemm img{
+        max-width: 768px;   
+    }
+ aside div img{
+        width: 250px;
+    
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .art1, .art3, .art2, .art4{
+        border: none;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    .art5{
+        margin-top: -15px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    aside {
+        margin-left: 90px;
+    }
+    
+    aside div img{
+        width:295px;
+        height: 265px;
+        padding: 10px;
+       
+    }
+
+    .art1, .art3, .art2, .art4{
+        border: none;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    .art5{
+        margin-top: -15px;
+        padding: 10px;
+    }
+}
+/*Media Imagens*/
+
+
+@media screen and (min-width: 992px) {
+    main{
+        margin: auto;
+        display: block;
+        width: 64%;
+        background-color: white;
+      }  
+}
 
 
 

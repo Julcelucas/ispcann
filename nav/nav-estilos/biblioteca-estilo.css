@@ -63,7 +63,7 @@ h3{
 }
 
 .bibliotecaa p{
-    padding: 14px;
+    padding: 10px;
     font-family: 'PT Sans', sans-serif;
     font-size: 1em;
     font-weight: normal;
@@ -76,19 +76,17 @@ h3{
    
 }
 
-@media screen and (max-width: 360px){
-    .lii{
-        margin-left: 0px;
-        margin-left: 10px;
-    }
+@media screen and (max-width: 678px){
+   
 
     ol,ul{
-     margin-left: -10px;   
+     margin-left: 0px; 
+     text-align: center;  
     }
 
-    li{
-        margin: 0;
-        text-indent: -10px;
+    .lista1{
+
+        
     }
 }
 

@@ -1,123 +1,101 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
 }
 
-.footer1{
-    display: block;
-    background-image: linear-gradient(to right,rgb(45, 57, 59),rgb(16, 65, 73));
-    padding:20px 10px 20px 10px;
-}
-
-.footer1 h1{
-    color: rgb(236, 232, 232);
-    font-size: 1.5em;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    text-align: center;
-} 
-
-.redes-sociais{
-   
-
-}
-
-.redes-sociais img{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    margin: 12px;
-    box-sizing: border-box;
-    border: 2px solid #cece0e;
-    padding: 6px;
-}
-
-.redes-sociais img:hover{
-    border: 2px solid var(--cor7);
-    transform: translate(-4px, -4px);
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.623);
-    transition: transform 1s;
-}
-
-
 footer{
     background-image: linear-gradient(to right,rgb(48, 47, 47), rgb(27, 26, 26));
     box-shadow: 0px 0px 10px black;
     display: block;
-    padding: 40px;
+    padding-top: 10px;
+    
+}
+footer p{
+    font-family: 'PT Sans', sans-serif;  
+    padding-left: 30px;
+
 }
 
-footer p,a{
+.separar {
+    padding-top: 20px;
+}
+#ultima{
+    padding-bottom: 20px;
+}
+
+.big p{
+    font-size: 1.1em;
+}
+
+.impo{
+    
+}
+
+footer p{
     color: rgba(255, 255, 255, 0.719);
-    padding-bottom: 10px;
-    font-size: small;
-    font-weight: lighter;
+      
+}
+
+footer a{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
 }
 
 .info a{
-    margin-left: -30px;
+    
 }
 
-.copy{
-    padding-top: 10px;
-    padding-bottom: 20px;
+.info2{
+    border-top: 1px solid rgba(0, 0, 0, 0.726);
+    margin-top: 35px;
 }
 
 .center{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .center img{
     width: 60px;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .juice {
     text-align: center;
-    
+    padding-bottom: 5px;
 }
 
 .nam { 
    text-align: center; 
-   margin-left: -40px;
+    
 }
 
 footer .extra{
-    padding-bottom: 20px; margin-left: 30px; line-height: 1.4em;
+    line-height: 1.4em;
+    font-size: 0.9em;
 }
 
-footer >.info >p >img{
-    width: 16px; margin-right: 10px; margin-top: 10px;
-}
 
-footer >.info >p >a>img{
-    width: 16px; margin-right: 15px; margin-top: 10px;
-}
 
 footer > .info > p{
     font-size: 0.9em;
 }
 
-footer > .info > p .impo:hover{
-    color: rgb(105, 105, 17);
+
+
+footer .julce{
+    margin-top: 10px;
+    font-size: 1em;
 }
-
-footer .info2 p{
-    font-size: 0.9em;
-}
-
-footer > .info2 > p .julce{
-    font-size: 1.11em;
-}
-
-
-footer > .info2 > p .julce:hover{
-    color: rgb(105, 105, 17);
-}
-
 
 .coracao{
     width: 20px;
@@ -126,42 +104,49 @@ footer > .info2 > p .julce:hover{
     
 }
 
-@media screen and (min-width:768px) and (max-width:2600px) {
-    
 
-    .redes-sociais img{
-        width: 55px;
-        height: 55px;
-        padding: 6px;
-    }
+footer aside{
     
-    .redes-sociais{
-        text-align: center;
-    }
-
-    footer >.info >p >img{
-        width: 20px;
-    }
     
-    footer >.info >p >a>img{
-        width: 20px;
-    }
+}
 
-    footer > .info > p{
-        font-size: 1.180em;
-    }
-
-
-    footer > .info > p{
-        font-size: 1.1em;
-    }
-    
-    footer .info2 p{
-        font-size: 1.1em;
-    }
-    
+.redes-sociais{
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.473);
+  text-align: center;
    
+}
+
+.redes-sociais img{
+    width: 45px;
+    height: 45px;
+    padding: 2px;
+    margin-left: 20px;
     
+}
+
+
+.redes-sociais img:hover{
+    border: 2px solid var(--cor7);
+    transform: translate(-4px, -4px);
+    transition: transform 1s;
+    border-radius: 50%;
+    box-sizing: border-box;
+    
+}
+
+.copy{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.473);
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+@media screen and (min-width:768px) and (max-width:2600px) {    
 }
 
 
