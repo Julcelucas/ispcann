@@ -28,6 +28,7 @@ footer p{
 }
 #ultima{
     padding-bottom: 20px;
+    padding-right: 10px;
 }
 
 .big p{
@@ -76,12 +77,13 @@ footer a{
 
 .nam { 
    text-align: center; 
-    
+    margin-left: -40px;
 }
 
 footer .extra{
     line-height: 1.4em;
     font-size: 0.9em;
+    padding-right: 15px;
 }
 
 
@@ -120,10 +122,10 @@ footer aside{
 }
 
 .redes-sociais img{
-    width: 45px;
-    height: 45px;
-    padding: 2px;
-    margin-left: 20px;
+    width: 35px;
+    height: 35px;
+    padding: px;
+    
     
 }
 
@@ -144,6 +146,7 @@ footer aside{
     font-size: 0.9em;
     text-align: center;
     line-height: 1.2em;
+    padding-right: 15px;
 }
 
 @media screen and (min-width:768px) and (max-width:2600px) {    

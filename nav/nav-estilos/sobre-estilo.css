@@ -40,3 +40,41 @@ main p{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: rgb(235, 235, 235);
+      }
+      main{
+        margin: auto;
+        display: block;
+        width: 70%;
+        background-color: white;
+        padding: 20px;
+        padding-bottom: 100px;
+      }
+
+      main img{
+        width: 90%;
+    }
+
+    main h1{
+        font-size: 2em;
+        padding-top: 50px;
+    }
+      main p{
+        font-size: 1.4em;
+      }
+}
+
+
+@media screen and (min-width: 992px) {
+
+      main img{
+        width: 90%;
+        height: 600px;
+    }
+
+}
+
+

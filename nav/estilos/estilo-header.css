@@ -53,8 +53,23 @@ main section > h1,p,a,ol{
 }
 
 
-@media screen  and (min-width:320px)and (max-width: 1050px) {
-   
+@media screen  and (min-width:768px) {
+    .nav-bar{
+        padding-top: 20px;
+    }
+    .logo{
+    margin: auto;
+   }
+
+   .logo img{
+    width: 40%;
+    margin-left: -20px;
+    margin-right: 20px;
+   }
+
+   .logo p{
+    font-size: 1.4em;
+   }
 }
 
 @media screen and (min-width:520px) and (max-width:1050px){
