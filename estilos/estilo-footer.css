@@ -30,12 +30,12 @@ footer p{
     padding-bottom: 20px;
 }
 
-.big p{
-    font-size: 1.5em;
+.big {
+font-size: 1.2em;
 }
 
 .impo{
-   font-size: 1.5em; 
+    font-size: 1.2em;
    text-decoration: underline;
 }
 
@@ -73,18 +73,18 @@ footer a{
 .juice {
     text-align: center;
     padding-bottom: 5px;
-    font-size: 1.4em;
+    
 }
 
 .nam { 
    text-align: center; 
    text-decoration: underline;
-   font-size: 1.4em;
+
 }
 
 footer .extra{
     line-height: 1.4em;
-    font-size: 1.1em;
+    padding-right: 15px;
 }
 
 
@@ -147,6 +147,7 @@ footer aside{
     font-size: 0.9em;
     text-align: center;
     line-height: 1.2em;
+    padding-right: 15px;
 }
 
 @media screen and (min-width:768px) {
@@ -164,7 +165,31 @@ footer aside{
         margin-left: 10px;
     }
     
+    .big {
+        font-size: 1.5em;
+        }
+        
+    .impo{
+            font-size: 1.5em;
+           text-decoration: underline;
+        }
 
+    footer .extra{
+            font-size: 1.1em;
+            padding-right: 15px;
+        }
+
+    .juice{
+        font-size: 1.4em;
+    } 
+    
+    .nam{
+        font-size: 1.2em;
+    }
+
+    .copy{
+        font-size: 1em;
+    }
 }
 
 
