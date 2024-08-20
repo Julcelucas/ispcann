@@ -15,10 +15,12 @@ footer{
     box-shadow: 0px 0px 10px black;
     display: block;
     padding-top: 10px;
-    padding-right: 10px;
+    
 }
 footer p{
-    font-family: 'PT Sans', sans-serif;    
+    font-family: 'PT Sans', sans-serif;  
+    padding-left: 30px;
+
 }
 
 .separar {
@@ -26,10 +28,17 @@ footer p{
 }
 #ultima{
     padding-bottom: 20px;
+    padding-right: 10px;
 }
 
 .big p{
-    font-size: 1.1em;
+    font-size: 1.2em;
+}
+
+.impo{
+    font-size: 1.2em;
+   margin-left: -30px; 
+   text-decoration: underline;
 }
 
 footer p{
@@ -44,10 +53,13 @@ footer a{
 }
 
 .info a{
-    margin-left: -30px;
+    
 }
 
-
+.info2{
+    border-top: 1px solid rgba(0, 0, 0, 0.726);
+    margin-top: 35px;
+}
 
 .center{
     text-align: center;
@@ -56,23 +68,24 @@ footer a{
 
 .center img{
     width: 60px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
 .juice {
     text-align: center;
-    
+    padding-bottom: 5px;
 }
 
 .nam { 
    text-align: center; 
-    margin-left: -30px;
+    margin-left: -40px;
 }
 
 footer .extra{
     line-height: 1.4em;
-    font-size: 0.9em;
+    font-size: 1em;
+    padding-right: 15px;
 }
 
 
@@ -82,10 +95,14 @@ footer > .info > p{
 }
 
 
+.juice{
+    font-size: 1em;
+}
 
 footer .julce{
     margin-top: 10px;
     font-size: 1em;
+    text-decoration: underline;
 }
 
 .coracao{
@@ -97,22 +114,24 @@ footer .julce{
 
 
 footer aside{
-    border-top: 1px solid rgba(0, 0, 0, 0.473);
-    padding-top: 8px;
-    padding-bottom: 10px;
-    margin-top: 20px;
+    
+    
 }
 
 .redes-sociais{
     margin-top: 50px;
-   margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.473);
+  text-align: center;
    
 }
 
 .redes-sociais img{
-    width: 30px;
-    height: 30px;
-    padding: 2px;
+    width: 45px;
+    height: 45px;
+    padding: px;
+    
     
 }
 
@@ -130,14 +149,54 @@ footer aside{
     padding-top: 10px;
     padding-bottom: 20px;
     border-top: 1px solid rgba(0, 0, 0, 0.473);
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
     line-height: 1.2em;
+    padding-right: 15px;
 }
 
-@media screen and (min-width:768px) and (max-width:2600px) {    
-}
 
+@media screen and (min-width:768px) {
+    
+    .redes-sociais img{
+        width: 60px;
+        height: 60px;
+        margin-left: 110px;
+        
+    }
+
+    .center img{
+        width: 95px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .big {
+        font-size: 1.2em;
+        }
+        
+    .impo{
+            font-size: 1.45em;
+           text-decoration: underline;
+        }
+
+    footer .extra{
+            font-size: 1.2em;
+            padding-right: 15px;
+        }
+
+    .juice{
+        font-size: 1.4em;
+    } 
+    
+    .nam{
+        font-size: 1.2em;
+    }
+
+    .copy{
+        font-size: 1em;
+    }
+}
 
 
 

@@ -32,11 +32,13 @@ footer p{
 }
 
 .big p{
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .impo{
+    font-size: 1.2em;
    margin-left: -30px; 
+   text-decoration: underline;
 }
 
 footer p{
@@ -82,7 +84,7 @@ footer a{
 
 footer .extra{
     line-height: 1.4em;
-    font-size: 0.9em;
+    font-size: 1em;
     padding-right: 15px;
 }
 
@@ -93,10 +95,14 @@ footer > .info > p{
 }
 
 
+.juice{
+    font-size: 1em;
+}
 
 footer .julce{
     margin-top: 10px;
     font-size: 1em;
+    text-decoration: underline;
 }
 
 .coracao{
@@ -122,8 +128,8 @@ footer aside{
 }
 
 .redes-sociais img{
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     padding: px;
     
     
@@ -143,15 +149,54 @@ footer aside{
     padding-top: 10px;
     padding-bottom: 20px;
     border-top: 1px solid rgba(0, 0, 0, 0.473);
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
     line-height: 1.2em;
     padding-right: 15px;
 }
 
-@media screen and (min-width:768px) and (max-width:2600px) {    
-}
 
+@media screen and (min-width:768px) {
+    
+    .redes-sociais img{
+        width: 60px;
+        height: 60px;
+        margin-left: 110px;
+        
+    }
+
+    .center img{
+        width: 95px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .big {
+        font-size: 1.2em;
+        }
+        
+    .impo{
+            font-size: 1.45em;
+           text-decoration: underline;
+        }
+
+    footer .extra{
+            font-size: 1.2em;
+            padding-right: 15px;
+        }
+
+    .juice{
+        font-size: 1.4em;
+    } 
+    
+    .nam{
+        font-size: 1.2em;
+    }
+
+    .copy{
+        font-size: 1em;
+    }
+}
 
 
 

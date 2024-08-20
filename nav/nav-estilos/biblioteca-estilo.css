@@ -76,6 +76,10 @@ h3{
    
 }
 
+main img{
+    padding: 15px;
+}
+
 @media screen and (max-width: 678px){
    
 
@@ -89,6 +93,45 @@ h3{
         
     }
 }
+
+/*Media Query*/
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: rgb(235, 235, 235);
+      }
+      main{
+        margin: auto;
+        display: block;
+        width: 68%;
+        background-color: white;
+        border: 1px solid rgba(65, 63, 63, 0.253);
+        padding-bottom: 50px;
+      }
+  
+      main h1{
+        font-size: 1.8em;
+        text-align: center;
+      }
+
+      main h2{
+        font-size: 1.4em;
+      }
+  
+      .bibliotecaa p{
+        font-size: 1.3em;
+      }
+
+      main li{
+        font-size: 1.27em;
+      }
+
+      main img{
+        padding: 15px;
+    }
+  
+     }
+  
 
 
 

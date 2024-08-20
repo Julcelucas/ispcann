@@ -13,6 +13,8 @@
 main{
     padding-top: 15px;
     padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
 
@@ -38,107 +40,38 @@ main p{
     color: black;
 }
 
+.grande  h2{
+    font-size: 1.1em;
+    font-family: 'PT Sans', sans-serif; 
+    font-weight: bold;
+    padding: 10px 10px 10px 0px;
+    color: rgb(38, 141, 141);
+}
+
 main span{
     color: rgb(82, 81, 81);
+    font-family: 'PT Sans', sans-serif; 
+    margin-left: 2px;
 }
 
-
-.news p{
-    text-align: justify;
-}
-.news img{
-    width: 93%;
-    text-align: center;
-    display: block;
-    margin: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-
-
-.noticiass{
-    width: 100%;
-    padding: 5px;
-    background-color: rgba(231, 231, 231, 0.315);
-    border: 1px solid rgba(255, 255, 255, 0.89);
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.noticiass a{
-    display: inline-block;
-    border-top: 1px solid rgba(148, 147, 147, 0.281);
-}
 
 .grande img{
     width: 100%;
-    margin-left: -13px;
-}
-
-.grande > .motivo  p{
-    margin-left: -20px;
-    font-size: 1.3em;
-}
-.grande > .motivo  span{
-    margin-left: -10px;
-}
-
-.motivo p{
-    
-}
-
-
-.pequeno{
-    padding-left: 50px;
-    border-top: 1px solid rgba(148, 147, 147, 0.281);
-    
-    
-}
-.pequeno img{
-    width: 50%;
-    height: 140px;
-    float: left;
-    margin-left: -30px;
-}
-
-.pequeno .motivo{
-    width: 55%;
-    float: right;
-    
-}
-
-.noticiass p{
-    font-size: 1.12em;
-}
-.noticiass span{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 0.92em; 
-    
-}
-
-.grande span{
-    margin-left: 20px; 
-}
-
-.pequeno p{
-    margin-left: 0px;
-}
-
-.pequeno span{
-    margin-left: 10px;
-}
-
-.noticiass p:hover{
-    text-decoration: underline;
 }
 
 #grande1{
-    margin-bottom: 25px; 
+    margin-bottom: 10px; 
+    padding-bottom: 10px;
+    border: 1px  solid rgba(65, 63, 63, 0.199);
+    
 }
 #grande2{
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+.two {
+    padding-top: px;
 }
 
 @media screen and (min-width: 768px) {
@@ -162,7 +95,7 @@ main span{
         margin-bottom: 25px;
     }
     .grande img{
-       width: 90%;
+       width: 100%;
        height: 350px;
     }
    
@@ -205,8 +138,8 @@ main span{
       }
 
       .grande img{
-        width: 95%;
-        height: 460px;
+        width: 100%;
+        height: 470px;
     }
    
 

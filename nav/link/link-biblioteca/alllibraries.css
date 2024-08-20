@@ -24,19 +24,6 @@ h1{
     padding-bottom: 10px;
 }
 
-h2{
-    font-family: 'Roboto Slab', serif; 
-    font-size: 1.2em; 
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
-
-h3{
-    font-family: 'Roboto Slab', serif; 
-    font-size: 1.2em; 
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
 
 main ul, ol{
   padding-left: 40px;  
@@ -56,329 +43,99 @@ main li{
 }
 
 main p{
-    padding: 10px;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 0.94em;
-    font-weight: normal;
-}
-
-
-
-
-/*Css para a rolagem lateral*/
-
-@media screen  and (min-width: 100px) and (max-width:1400px){ 
-
-.artigu {
-    position: relative;
-    margin-left: 0;
-    
-    height: 1000px;
-    border: 2px solid rgba(15, 152, 156, 0.541);
-  }
-
-  .artigu {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    font-size: 18px;
-    background: #fff;
-    padding: px;
-    
-  }
-
-  
-
-  
-
-  .swiper-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .swiper {
-  
-  }
-
-  .swiper-button-next,.swiper-button-prev{
-    display: none;
-  }
-
-  /*Livros da rolagem lateral*/
-
-  .carde{
-   
-    width: 150px;
-    margin: auto;
-    margin: 10px;
-    margin-bottom: 30px;
-   /* border: 1px solid rgb(2, 166, 172);
-    border-top-left-radius: 29px;
-    border-bottom-right-radius: 40px;*/
-    display: inline-block;
-    
-  }
-
-  .livro{
-    width: 80%;
-    height: 230px;
-    margin: auto;
-    
-  }
-
-  .livro img{
-    width: 100%;
-    
-    
-  }
-
-  .carde p{
+    padding: 5px;
     font-family: 'PT Sans', sans-serif;
     font-size: 1em;
-    color: rgb(1, 71, 73);
-    
-  }
-
-  .titlu{
-    text-align: center;
-    
-  }
-
-  .carde a{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 1.1em;
-    color: white;
-    margin-left: 0;
-    padding-right: 15px;
-    padding-top: 5px;
-    width: calc(100% - 25px);
-    
-    /*border-bottom-right-radius: 25px;*/
-  }
-
-  .branco{
-    background-color: rgba(201, 195, 195, 0.842);
-   /* border-top-left-radius: 22px;*/
-  }
-  .cinzento{
-    background-color: rgba(15, 152, 156, 0.541);
-    max-height: 170px;
-    padding-bottom: 130px;
-    /*border-bottom-right-radius: 13px;*/
-    
-  }
-
-  
-
-  .baixar1{
-    background-color: rgb(20, 95, 95);
-    color: white;
-    cursor: pointer;
-  }
-
-  .baixar2{
-    background-color: rgb(20, 95, 95);
-    color: white;   
-    cursor: pointer;
-  }
-
-  .baixar3{
-    background-color: rgb(7, 107, 165);;
-    color: white;
-    cursor: pointer;
-  }
-
-  .baixar4{
-    background-color: rgb(74, 167, 20);;
-    color: white;
-    cursor: pointer;
-  }
-
-  #baixar:hover{
-    text-decoration: underline;
-  }
-
-}
-
-@media (min-width: 376px) and (max-width: 1200px) {
-
-  .artigu{
-    margin: auto;
-  }
-    }
-
-@media screen  and (min-width: 730px) 
-{ 
-
-  main h1{
-    font-size: 2em;
-  }
-
-  .artigu{
-    width: 80%;  
-    }
-
-  .carde{
-    width: 100px;
-    margin: 0px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    margin-left: 40px;
-  }
-
-  .livro{
-    width: 80%;
-  }
-
-  .livro img{
-    width: 100%;    
-  }
-
-  .carde a{
-    font-size: 1.1em;
-    margin-left: -2px;
-    padding-right: 14px;
-    
-  }
-
-  .titlu{
-    
-  }
- }
-
- @media screen and (min-width: 768px) { 
-  
-  body{
-    background-color: rgb(235, 235, 235);
-  }
-  main{
-    margin: auto;
-    display: block;
-    width: 75%;
-    background-color: white;
-  }
-
-  main p{
-    font-size: 1.4em;
-  }
-
-  main ol, ul{
-    font-size: 1.4em;
-  }
-
-  .artigu{
-  width: 90%;  
-  height: 1200px;
-  }
-
-  .swiper-slide{
-    padding: 10px;
-  }
-  .carde{
-    width: 200px;
-    height: 468px;
-    margin: 10px;
-    margin-left: 0px;
-    margin-bottom: 50px;
-    border: 1px solid rgb(46, 46, 46);
-    
-    /*border-top-left-radius: 29px;
-    border-bottom-right-radius: 75px;*/
-    
-  }
-
-  .arti{
     
 }
 
-.carde a{
-  padding-right: 43.2px;
-  /*border-bottom-right-radius: 70px;*/
+
+table{
+  border-collapse: collapse;
+  padding: 300px;
+}
+
+caption{
+  font-size: 1.3em;
   padding-bottom: 10px;
-  padding-top: 15px;
-  font-size: 1.3em;
-  margin-left: 0.3px;
-  
+  text-align: left;
+  padding-top: 30px;
+  color: rgb(38, 141, 141); 
 }
 
-.carde p{
+th, td{
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  padding: 15px;
+  text-align: center;
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.3em;
-  color: rgb(1, 71, 73);
-  
+  font-size: 1em;
 }
 
-.cinzento{
-  padding-bottom: 200px;
-  /*border-bottom-right-radius: 35px;*/
-  
+.titulo{
+  color: rgb(38, 141, 141); 
+  font-weight: bold;
+  font-size: 0.85em;
 }
 
+td a{
+  color: rgb(37, 126, 153);
+  text-decoration: underline;
 
- }
+}
 
- @media screen and (min-width: 992px) {
-  
-  .artigu{
-    width: 60%;
-    height: 1200px;  
-    margin: auto;
+tr:nth-child(even){
+  background-color: rgba(211, 211, 211, 0.432);
+}
+div.contentor{
+  overflow-x: auto;
+overflow-y: auto;}
+
+/*Media Query*/
+
+@media screen and (min-width: 768px) {
+  body{
+      background-color: rgb(235, 235, 235);
+    }
+    main{
+      margin: auto;
+      display: block;
+      width: 68%;
+      background-color: white;
+      border: 1px solid rgba(65, 63, 63, 0.253);
+      padding-bottom: 50px;
     }
 
-    .carde{
-      margin-top: 50px;
-      margin-left: 40px;
+    main h1{
+      font-size: 1.8em;
     }
 
-    .cinzento{
-      background-color: rgba(15, 152, 156, 0.541);
-      max-height: 200px;
-      padding-bottom: 130px;
-      /*border-bottom-right-radius: 13px;*/
+    main p{
+      font-size: 1.4em;
+    }
+
+    main li{
+      font-size: 1.27em;
+    }
+
+    table{
+      padding-top: 20px;
+      padding-bottom: 30px;
+    }
+
+
+    td{
       
+      font-size: 1.1em;
     }
- }
-
- @media screen and (min-width: 1024px) {
-  .artigu{
-    width: 73%;
-    height: 1200px;  
-    margin: auto;
+    
+    .titulo{
+      font-size: 1.1em;
+      font-weight: normal;
     }
+   }
 
-    .carde{
-      margin-top: 50px;
+   @media screen and (min-width:992px) {
+    caption{
+      text-align: center;
     }
- }
-
- @media screen and (max-width: 360px) {
-  .carde{
-    width: 130px;
-  }
-
-  .carde p{
-    font-size: 0.8em;
-  }
-
-  .carde a{
-    font-size: 0.8em;
-    color: white;
-    margin-left: 0.3px;
-    padding-right: 23.2px;
-    padding-top: 5px;
-    width: calc(100% - 25px);
-  }
-
- }
+   }
