@@ -28,14 +28,17 @@ h1{
 main p{
     padding: 15px;
     line-height: 1.4em;
-    
     font-family: 'PT Sans', sans-serif;
     
 }
 
+.para{
+    padding-left: 40px;
+  }
+
 
 .secc2{
-    width: 90%;
+    width: 95%;
     border: 1px solid rgb(2, 26, 43);
     border-radius: 10px;
     margin: auto;
@@ -53,7 +56,6 @@ audio{
 
 audio::-webkit-media-controls-panel{
     background-color: rgb(214, 215, 216);
-
 }
 
 
@@ -117,7 +119,7 @@ audio::-webkit-media-controls-panel{
 }
 
 .secc2{
-    width: 70%;
+    width: 90%;
     padding-bottom: 30px;
 }
 
@@ -142,6 +144,11 @@ audio::-webkit-media-controls-panel{
 
       main p{
         font-size: 1.4em;
+        
+      }
+
+      .para{
+        padding-left: 40px;
       }
       
       .banner-card{
@@ -165,8 +172,16 @@ audio::-webkit-media-controls-panel{
     } 
 }
 
-@media screen and (min-width:992px){
+.secc2{
+    width: 75%;
     
+}
+
+@media screen and (min-width:992px){
+    .secc2{
+        width: 70%;
+        
+    }
 }
 
 

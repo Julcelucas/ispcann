@@ -74,6 +74,13 @@ main span{
     padding-top: px;
 }
 
+li{
+    list-style: none;
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif; 
+    padding-left: 35px;
+}
+
 @media screen and (min-width: 768px) {
     
     body{

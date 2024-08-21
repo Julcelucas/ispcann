@@ -144,6 +144,7 @@ main > .cursoss ul, ol{
 
 /*Media Query*/
 
+
 @media screen and (min-width: 768px) {
     body{
         background-color: rgb(235, 235, 235);
@@ -175,9 +176,9 @@ main > .cursoss ul, ol{
       }
 
       div .imagenn{
-        width: 430px;
-        height: 380px;
-         
+        width: 340px;
+        height: 350px;
+        
     }
 
     .cursoss{
@@ -196,3 +197,14 @@ main > .cursoss ul, ol{
     
 
      }
+
+
+     @media screen and (min-width:992px){
+        div .imagenn{
+            width: 430px;
+            height: 380px;
+             
+        }
+    }
+
+     

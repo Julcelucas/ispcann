@@ -25,6 +25,15 @@ h1{
     
 }
 
+h2{
+    color: rgb(38, 141, 141);
+    font-family: 'Domine', serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
 main p{
     font-family: 'PT Sans', sans-serif; 
     line-height: 1.3em;
@@ -70,21 +79,22 @@ main span{
 .noticiass a{
     display: inline-block;
     border-top: 1px solid rgba(148, 147, 147, 0.281);
+
 }
+
 
 .grande img{
     width: 100%;
     margin-left: -13px;
 }
 
-.grande > .motivo  p{
+.grande > .motivo  h2{
     margin-left: -20px;
     font-size: 1.2em;
 }
 .grande > .motivo  span{
     margin-left: -10px;
 }
-
 
 
 .motivo p{
@@ -133,7 +143,7 @@ main span{
     margin-left: 10px;
 }
 
-.noticiass p:hover{
+.noticiass h2:hover{
     text-decoration: underline;
 }
 
@@ -213,16 +223,22 @@ main span{
       }
 
       .grande img{
-        width: 95%;
+        width: 85%;
         height: 460px;
     }
    
 
     .pequeno img{
-        width: 44%;
+        width: 400px;
         height: 242px;
         float: left;
         margin-left: -30px;
+    }
+
+    .pequeno .motivo{
+        width: 440px;
+        float: right;
+        
     }
 
   
