@@ -162,10 +162,10 @@ main section p{
 .sec2 .imagem{
     text-align: center;
     padding: 15px;
-    margin-left: 20px;
+    
 }
 .sec2 .imagem img{
-    max-width: 350px;
+    max-width: 310px;
     height: 10%;
 }
 
@@ -186,7 +186,7 @@ main section p{
 .sec4 .imagemm{
     text-align: center;
     padding: 15px;
-    margin-left: 20px;
+    
 }
 .sec4 .imagemm img{
     width: 100%;
@@ -230,7 +230,7 @@ aside div{
 
 aside div img{
     width: 150px;
-    height: 150px;
+    height: 170px;
     padding: 2px;
     
 }
@@ -283,7 +283,10 @@ aside div img{
     width: 70%;
 }
 
-
+.sec2 .imagem img{
+    max-width: 520px;
+    height: 10%;
+}
    
    
 }
