@@ -104,9 +104,7 @@ main >.sec1,.sec3{
 }
 
 
-.sec3 p{
-    color: var(--cor1);
-}
+
 
 .sec2 li{
     font-family: 'DM Sans', sans-serif;
@@ -116,6 +114,8 @@ main >.sec1,.sec3{
     border: 1px solid #C1DCE9;
     border-radius: 15px 30px;
     margin-bottom: 5px;
+    list-style: none;
+    width: 90%;
 }
 
 .sec2 a{
@@ -142,6 +142,7 @@ main >.sec1,.sec3{
     font-size: 1em;
   
 }
+
 
 
 h1{
@@ -277,6 +278,11 @@ aside div img{
     .sec1 h1, .sec2 h1, .sec4 h1{
         font-size: 1.6em;
     }
+
+    .sec2 li{
+    width: 70%;
+}
+
 
    
    

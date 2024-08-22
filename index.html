@@ -7,12 +7,17 @@
     <title>Ispcan</title>
     <link rel="shortcut icon" href="imagens/cardeal-ico.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+
+    <link rel="stylesheet" href="estilos/estilo-notblog.css">
     <link rel="stylesheet" href="estilos/estilo-principal.css">
     <link rel="stylesheet" href="estilos/estilo-header.css">
     <link rel="stylesheet" href="estilos/media-query.css">
     <link rel="stylesheet" href="estilos/estilo-slides.css">
-    <link rel="stylesheet" href="estilos/estilo-notblog.css">
     <link rel="stylesheet" href="estilos/estilo-footer.css">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="note/swiper-bundle.min.css" />
+
 
 </head>
 
@@ -108,88 +113,110 @@
        <!--Noticias e eventos-->
        <section class="sec3" >
         <h1>Noticias e Eventos</h1>
-        <!--Caixa Sinza de Rolagem-->
-        <div id="caixa" class="scroll" id="blog">
-            <!--Caixas dos Posts. Imagem e Texto-->
-            
-                <div class="blog">
-                    <div class="imagem">
-                        <img src="imagens/noticias/pexels1.jpg" alt="imagem">
-                    </div>
-                    <div class="texto">
-                        <span>09 February 2024</span>
-                        <a href="nav/noticias/1first.html" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
-                    </div>
-                </div>
+
+         <!-- Swiper -->
+  <div class="artigu">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
         
-            <div class="blog">
-                <div class="imagem">
-                    <img src="imagens/noticias/imagem2.jpg" alt="imagem">
-                </div>
-                <div class="texto">
-                    <span>09 February 2024</span>
-                    <a href="nav/noticias/2second.html" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
-                
-                </div>
-            </div>
+            <!-- Cards de noticias--> 
 
-            <div class="blog">
-                <div class="imagem">
-                    <img src="imagens/noticias/pexels2.jpg" alt="imagem">
-                </div>
-                <div class="texto">
-                    <span>09 February 2024</span>
-                    <a href="nav/noticias/3third.html" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
+            <!-- SWIPPER 111-->
+        <div class="swiper-slide">           
+            <section  class="grande" id="grande1">
+                <img src="nav/noticias/imagens/imagem1.jpg" alt="imagem">
+                <div class="motivo">
                     
+                    <a href="nav/noticias/1first.html">
+                        <h2 class="assunto">INAAREES presente no Instituto Superior Politécnico Dom Alexandre Cardeal do Nascimento em junho de 2024, para avaliar o Curso de Psicologia Clínica ministrado pelo ISPCAN.</h2>
+                    </a>
+                    <span class="data">13 agosto 2024</span>
                 </div>
-            </div>
+            </section>
+          </div>
 
-            <div class="blog">
-                <div class="imagem">
-                    <img src="imagens/noticias/imagem1.jpg" alt="imagem">
+           <!-- SWIPPER 222-->
+        <div class="swiper-slide">           
+            <section  class="grande" id="grande1">
+                <img src="nav/noticias/imagens/imagem2.jpg" alt="imagem">
+                <div class="motivo">
+                    
+                    <a href="nav/noticias/2second.html">
+                        <h2 class="assunto">
+                            O ISPCAN vai receber novos estudantes nos cursos de Saúde. Confira a informação.
+                        </h2>   
+                    </a>
+                    <span class="data">18 agosto 2024</span>
                 </div>
-                <div class="texto">
-                    <span>09 February 2024</span>
-                    <a href="nav/noticias/3third.html" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
-                
-                </div>
-            </div>
+            </section>
+          </div>
 
-            <div class="blog">
-                <div class="imagem">
-                    <img src="imagens/noticias/pexels1.jpg" alt="imagem">
-                </div>
-                <div class="texto">
-                    <span>09 February 2024</span>
-                    <a href="nav/noticias/4fourth.html" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
+           <!-- SWIPPER 333-->
+        <div class="swiper-slide">           
+            <section  class="grande" id="grande1">
+                <img src="nav/noticias/imagens/imagem3.jpg" alt="imagem">
+                <div class="motivo">
                     
+                    <a href="nav/noticias/3third.html">
+                        <h2 class="assunto">Processo de reconfirmação de matrículas dos estudantes bolseiros.</h2>
+                    </a>
+                    <span class="data">12 agosto 2024</span> 
                 </div>
-            </div>
-             
-            <div class="blog">
-                <div class="imagem">
-                    <img src="imagens/noticias/imagem2.jpg" alt="imagem">
-                </div>
-                <div class="texto">
-                    <span>09 February 2024</span>
-                    <a href="nav/noticias/5fifth.html" class="titlo">O Que Aconteceu Sobre O Desenvolvimento Web</a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam eveniet voluptas dignissimos tempora sunt quas distinctio! Minima, blanditiis eius molestias, tempora modi error sit magni quidem atque aliquam quibusdam!</p>
+            </section>
+          </div>
+
+          <!-- SWIPPER 444-->
+        <div class="swiper-slide">           
+            <section  class="grande" id="grande1">
+                <img src="nav/noticias/imagens/imagem4.jpg" alt="imagem">
+                <div class="motivo">
                     
+                    <a href="nav/noticias/4fourth.html">
+                        <h2 class="assunto">Aviso Importante aos Estudantes bolseiros</h2>
+                         </a>
+                         <span class="data">09 agosto 2024</span>                    
                 </div>
-            </div>
+            </section>
+          </div>
+
+           <!-- SWIPPER 555-->
+        <div class="swiper-slide">           
+            <section  class="grande" id="grande1">
+                <img src="nav/noticias/imagens/imagem5.jpg" alt="imagem">
+                <div class="motivo">
+                    
+                    <a href="nav/noticias/5fifth.html">
+                        <h2 class="assunto">Associação Académica dos Estudantes do Instituto Superior Politécnico Dom Alexandre Cardeal do Nascimento reuniu-se em Assembleia Geral</h2> 
+                    </a>
+                    <span class="data">11 julho 2024</span>
+                </div>
+            </section>
+          </div>
+
+           <!-- SWIPPER 6-->
+        <div class="swiper-slide">           
+            <section  class="grande" id="grande1">
+                <img src="nav/noticias/imagens/imagem6.jpg" alt="imagem">
+                <div class="motivo">
+                    
+                    <a href="nav/noticias/6sixth.html">
+                        <h2 class="assunto">Estudantes do curso de Direito do 4º ano do ISPCAN submetidos a um Tribunal Simulado</h2>
+                    </a>
+                    <span class="data">20 junho 2024</span>
+                </div>
+            </section>
+          </div>
+
         </div>
-           
-    </section>
-    <div class="span" id="arrow">
-        <img src="ico/seta-esquerda.png" alt="arrow_back" onclick="scrolll()" id="span1">
-        <img src="ico/seta-direita.png" alt="arrow_forward" onclick="scrollr()" id="span2">
-    </div> 
-       
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+  </div>
+
+        </section>
+
+
 
        <!--Quem Somos Nós-->
        <section class="sec4">
@@ -296,6 +323,11 @@
 
         <p class="copy">&copy; Copyright 2024. Todos Os Direitos Reservados. ISPCAN</p>
     </footer>
+<!-- Swiper JS -->
+<script src="note/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script src="biblioteca.js"></script>
 
     <script src="script.js"></script>
 
