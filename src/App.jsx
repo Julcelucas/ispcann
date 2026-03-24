@@ -117,6 +117,12 @@ const courses = [
   },
 ];
 
+const libraryFallbackImages = {
+  engenharias: "/nav/imagens/biblioteca/capa-de-livro1.jpg",
+  sociais: "/nav/imagens/biblioteca/capa-do-livro2.jpg",
+  saude: "/nav/imagens/biblioteca/capa-do-livro3.jpg",
+};
+
 function App() {
   return (
     <BrowserRouter>
@@ -623,7 +629,15 @@ function LibraryHubPage({ libraryDepartments }) {
       <div className="library-grid">
         {libraryDepartments.map((department) => (
           <article key={department.id} className="library-card">
-            <img src={department.image} alt={department.title} />
+            <img
+              src={department.image || libraryFallbackImages[department.id] || "/nav/imagens/biblioteca/biblioteca-1.jpg"}
+              alt={department.title}
+              onError={(event) => {
+                event.currentTarget.onerror = null;
+                event.currentTarget.src =
+                  libraryFallbackImages[department.id] || "/nav/imagens/biblioteca/biblioteca-1.jpg";
+              }}
+            />
             <div>
               <h3>{department.title}</h3>
               <p>{department.description}</p>
