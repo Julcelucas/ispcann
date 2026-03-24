@@ -118,9 +118,9 @@ const courses = [
 ];
 
 const libraryFallbackImages = {
-  engenharias: "/nav/imagens/biblioteca/capa-de-livro1.jpg",
-  sociais: "/nav/imagens/biblioteca/capa-do-livro2.jpg",
-  saude: "/nav/imagens/biblioteca/capa-do-livro3.jpg",
+  engenharias: "/nav/imagens/biblioteca/biblioteca-engenharias.svg",
+  sociais: "/nav/imagens/biblioteca/biblioteca-sociais.svg",
+  saude: "/nav/imagens/biblioteca/biblioteca-saude.svg",
 };
 
 function App() {
@@ -630,7 +630,7 @@ function LibraryHubPage({ libraryDepartments }) {
         {libraryDepartments.map((department) => (
           <article key={department.id} className="library-card">
             <img
-              src={department.image || libraryFallbackImages[department.id] || "/nav/imagens/biblioteca/biblioteca-1.jpg"}
+              src={libraryFallbackImages[department.id] || department.image || "/nav/imagens/biblioteca/biblioteca-1.jpg"}
               alt={department.title}
               onError={(event) => {
                 event.currentTarget.onerror = null;

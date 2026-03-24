@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Biblioteca de Ciências da Saúde">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#34495f"/>
+      <stop offset="1" stop-color="#98adbd"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect x="640" y="40" width="170" height="220" rx="6" fill="#e6ecef"/>
+  <rect x="840" y="40" width="170" height="220" rx="6" fill="#f2f5f7"/>
+  <rect x="640" y="40" width="170" height="14" fill="#bbc8d1"/>
+  <rect x="840" y="40" width="170" height="14" fill="#c6d1d8"/>
+  <rect x="520" y="315" width="460" height="200" rx="10" fill="#f7f8f8" transform="rotate(-8 520 315)"/>
+  <rect x="520" y="315" width="460" height="200" rx="10" fill="none" stroke="#d6dde3" stroke-width="3" transform="rotate(-8 520 315)"/>
+  <text x="650" y="380" text-anchor="middle" font-size="26" font-family="Arial, sans-serif" fill="#bf5a5a" transform="rotate(-8 650 380)">CUIDADOS DE SAUDE</text>
+  <text x="650" y="420" text-anchor="middle" font-size="20" font-family="Arial, sans-serif" fill="#58708a" transform="rotate(-8 650 420)">BIBLIOTECA CLINICA</text>
+  <rect x="720" y="335" width="220" height="160" fill="#d7e3ed" transform="rotate(-8 720 335)"/>
+  <text x="160" y="620" font-size="34" font-family="Arial, sans-serif" fill="#e9f0f5" letter-spacing="4">CIENCIAS DA SAUDE</text>
+</svg>

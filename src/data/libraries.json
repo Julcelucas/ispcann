@@ -3,7 +3,7 @@
     "id": "engenharias",
     "title": "Biblioteca de Engenharias",
     "description": "Materiais para Engenharia Informatica, Telecomunicacoes, Construcao Civil e Agronomica.",
-    "image": "/nav/imagens/cursos/imagem2-p.jpg",
+    "image": "/nav/imagens/biblioteca/biblioteca-engenharias.svg",
     "books": [
       {
         "title": "Sistema de Telecomunicacoes",
@@ -39,7 +39,7 @@
     "id": "sociais",
     "title": "Biblioteca de Ciencias Sociais",
     "description": "Recursos para Direito, Economia, Contabilidade, Gestao e Psicologia.",
-    "image": "/nav/imagens/cursos/imagem1-p.jpg",
+    "image": "/nav/imagens/biblioteca/biblioteca-sociais.svg",
     "books": [
       {
         "title": "Fundamentos de Economia Aplicada",
@@ -75,7 +75,7 @@
     "id": "saude",
     "title": "Biblioteca de Ciencias da Saude",
     "description": "Conteudo para Enfermagem, Fisioterapia e formacao clinica interdisciplinar.",
-    "image": "/nav/imagens/cursos/imagem3-p.png",
+    "image": "/nav/imagens/biblioteca/biblioteca-saude.svg",
     "books": [
       {
         "title": "Bases de Enfermagem Moderna",

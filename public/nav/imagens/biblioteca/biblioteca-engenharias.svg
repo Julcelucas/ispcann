@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Biblioteca de Engenharias">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#97b8b3"/>
+      <stop offset="1" stop-color="#c7dfdc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect x="300" y="40" width="560" height="620" rx="10" fill="#f4f6f5"/>
+  <rect x="300" y="40" width="560" height="620" rx="10" fill="none" stroke="#d9e3e1" stroke-width="3"/>
+  <rect x="300" y="40" width="70" height="620" fill="#dde8e5"/>
+  <text x="575" y="260" text-anchor="middle" font-size="62" font-family="Georgia, serif" fill="#6f8783" font-weight="700">DIFFERENT</text>
+  <text x="575" y="340" text-anchor="middle" font-size="84" font-family="Georgia, serif" fill="#5f7773" font-weight="700">WINTER</text>
+  <text x="575" y="402" text-anchor="middle" font-size="30" font-family="Arial, sans-serif" fill="#9ba9a7" letter-spacing="6">ENGENHARIAS</text>
+  <circle cx="575" cy="500" r="24" fill="#e8efed" stroke="#cad8d5" stroke-width="4"/>
+</svg>
