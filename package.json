@@ -4,7 +4,9 @@
   "version": "0.1.0",
   "description": "Portal institucional ISPCAN em React + Vite",
   "scripts": {
+    "predev": "node ./scripts/sync-static.cjs",
     "dev": "vite",
+    "prebuild": "node ./scripts/sync-static.cjs",
     "build": "node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview"
   },
