@@ -693,3 +693,7 @@ main { padding-top: var(--header-h); }
   .hero-actions { flex-direction: column; }
 }
 
+/* ─── Temporário: ocultar acções de admin ────────────────── */
+.admin-panel,
+.danger-button { display: none !important; }
+
