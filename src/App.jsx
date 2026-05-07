@@ -20,8 +20,8 @@ const navigation = [
   { label: "Noticias", to: "/noticias" },
   { label: "Biblioteca", to: "/biblioteca" },
   { label: "Radio", to: "/radio" },
+  { label: "SIGA", to: "https://ispcan.siga.ao/", external: true },
   { label: "Sobre", to: "/sobre" },
-  { label: "Pesquisa", to: "/pesquisa" },
 ];
 
 const highlights = [
@@ -83,37 +83,37 @@ const courses = [
     title: "Direito",
     department: "Ciencias Sociais",
     summary: "Formacao juridica orientada para interpretacao, pratica e responsabilidade social.",
-    image: "/nav/imagens/cursos/imagem1-p.jpg",
+    image: "/nav/imagens/cursos/imagem1.jpg",
   },
   {
     title: "Economia",
     department: "Ciencias Sociais",
     summary: "Analise economica aplicada ao desenvolvimento regional e nacional.",
-    image: "/nav/imagens/cursos/imagem1-p.jpg",
+    image: "/nav/imagens/cursos/imagem2.jpg",
   },
   {
     title: "Engenharia Informatica",
     department: "Engenharia e Tecnologias",
     summary: "Bases solidas em software, sistemas, redes e transformacao digital.",
-    image: "/nav/imagens/cursos/imagem2-p.jpg",
+    image: "/nav/imagens/cursos/imagem3.jpg",
   },
   {
     title: "Engenharia de Telecomunicacoes e Electronica",
     department: "Engenharia e Tecnologias",
     summary: "Infraestruturas, comunicacoes e inovacao tecnologica para o mercado moderno.",
-    image: "/nav/imagens/cursos/imagem2-p.jpg",
+    image: "/nav/imagens/cursos/imagem4.jpg",
   },
   {
     title: "Enfermagem",
     department: "Ciencias da Saude",
     summary: "Formacao humana e tecnica para cuidados de saude com qualidade e etica.",
-    image: "/nav/imagens/cursos/imagem3-p.png",
+    image: "/nav/imagens/cursos/imagem5.jpg",
   },
   {
     title: "Fisioterapia",
     department: "Ciencias da Saude",
     summary: "Competencias praticas para reabilitacao e bem-estar funcional.",
-    image: "/nav/imagens/cursos/imagem3-p.png",
+    image: "/nav/imagens/cursos/imagem6.png",
   },
 ];
 
@@ -216,7 +216,11 @@ function AppShell() {
           <ul>
             {navigation.map((item) => (
               <li key={item.label}>
-                <NavLink to={item.to}>{item.label}</NavLink>
+                {item.external ? (
+                  <a href={item.to} target="_blank" rel="noopener noreferrer">{item.label}</a>
+                ) : (
+                  <NavLink to={item.to}>{item.label}</NavLink>
+                )}
               </li>
             ))}
           </ul>
@@ -454,7 +458,7 @@ function CoursesPage() {
     <section className="section-shell inner-page page-enter">
       <div className="section-title">
         <p className="eyebrow">Cursos</p>
-        <h2>Oferta Formativa 2023/2024</h2>
+        <h2>Oferta Formativa 2025/2026</h2>
         <p>
           Programas de licenciatura distribuidos em Ciencias Sociais, Engenharia e Ciencias da Saude, desenhados para
           formar profissionais com alta capacidade tecnica e compromisso etico.
@@ -726,7 +730,6 @@ function LibraryDepartmentPage({ libraryDepartments, onAddBook, onDeleteBook }) 
               <th>Ano</th>
               <th>Area</th>
               <th>Download</th>
-              <th>Accoes</th>
             </tr>
           </thead>
           <tbody>
@@ -740,15 +743,6 @@ function LibraryDepartmentPage({ libraryDepartments, onAddBook, onDeleteBook }) 
                   <a href={book.link} target="_blank" rel="noreferrer">
                     Abrir
                   </a>
-                </td>
-                <td>
-                  <button
-                    type="button"
-                    className="danger-button small"
-                    onClick={() => onDeleteBook(department.id, book.title)}
-                  >
-                    Eliminar
-                  </button>
                 </td>
               </tr>
             ))}
