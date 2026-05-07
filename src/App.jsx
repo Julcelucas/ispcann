@@ -604,11 +604,13 @@ function NewsDetailPage({ newsItems }) {
     <section className="section-shell inner-page page-enter">
       <div className="article-shell">
         <img src={post.image} alt={post.title} className="article-cover" />
-        <p className="date">{post.date}</p>
-        <h1>{post.title}</h1>
-        {post.paragraphs.map((paragraph) => (
-          <p key={paragraph}>{paragraph}</p>
-        ))}
+        <div className="article-content">
+          <p className="date">{post.date}</p>
+          <h1>{post.title}</h1>
+          {post.paragraphs.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
+        </div>
       </div>
       <div className="back-row">
         <NavLink to="/noticias" className="btn btn-secondary">
